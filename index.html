@@ -8,87 +8,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="AboutMe.css">
     <style>
 
+    .education>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -8px;
+    }
 
+    .rec{
+        position: relative;
+        top: 13px;
+        left: 50px;
+        background-color: #40A2D8;
+        width: 93vw;
+        height: 61vh;
+    }
 
-        /*About me CSS*/
+    .rec>img{
+        position: relative;
+        top: 57px;
+        left: 50px;
+        width: 174px;
+        height: 168px
 
+    }
 
-        header{
-            top: 0;
-            position: fixed;
-            width: 99vw;
-            height: 7vh;
-            background-color: #0B60B0;
-            border-radius: 20px;
-            left: 0;
-            z-index: 1000;
+    .desc{
+        position: absolute;
+        top: 11px;
+        left: 483px;
+        font-size: 20px;
+        line-height: 106px;
+    }
 
-        }
+    #kcc>img{
+        position: relative;
+        top: 108px;
+        left: 102px;
+        width: 174px;
+        height: 168px;
+    }
 
-        header>nav{
-            font-size: 20px;
-            position: absolute;
-            top: 13px;
-            left: 1000px;
+    #kcc>p{
+        color: white;
+        position: relative;
+        top: -95px;
+        left: 538px;
+        font-size: 21px;
+    }
 
+    #kcc>h2{
+        color: white;
+        position: relative;
+        top: -100px;
+        left: 535px;
+        font-size: 21px;
+    }
 
-        }
+    #kcc>h4{
+        color: white;
+        position: relative;
+        top: -93px;
+        left: 600px;
+    }
+        /*Education CSS*/
 
-        header > nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 10px;
-
-        }
-
-        .aboutMe>div>h3{
-            color: white;
-            text-align: center;
-            font-size: 40px;
-            position: relative;
-            top: -8px;
-        }
-
-        .aboutMe>p{
-            color: white;
-            position: relative;
-            top: -360px;
-            left: 490px;
-            font-size: 23px;
-        }
-
-        #aboutPhoto>img{
-            position: relative;
-            top: 35px;
-            width: 426px;
-            height: 383px;
-
-            left: 40px;
-        }
-
-        .aboutMe>div>button{
-            position: relative;
-            background-color: #40A2D8;
-            top: -144px;
-            left: 852px;
-            color: black;
-            font-size: 20px;
-            border: 2px solid black;
-
-            width: 218px;
-            height: 50px;
-        }
-
-        #downloadImage>img{
-            left: 847px;
-            top: -138px;
-            position: relative;
-            width: 34px;
-            height: 33px;
-            margin-right: 10px;
-        }
 
 
         /*Home media query*/
@@ -122,174 +110,6 @@
 
         /*About media query*/
 
-
-        @media all and (max-width: 768px) {
-            header>nav{
-                font-size: 20px;
-                position: absolute;
-                top: 13px;
-                left: 270px;
-
-            }
-
-            #aboutPhoto>img{
-                position: relative;
-                top: 35px;
-                left: 40px;
-                width: 336px;
-                height: 311px;
-
-
-
-            }
-
-            .aboutMe>p{
-                color: white;
-                position: relative;
-                top: -360px;
-                left: 490px;
-                font-size: 11px;
-            }
-
-        }
-
-
-        @media all and (max-width: 1024px) {
-
-
-            header {
-                top: 0;
-                position: fixed;
-                width: 100vw;
-                height: 7vh;
-                background-color: #0B60B0;
-                border-radius: 20px;
-                left: 0;
-
-            }
-
-            header>nav{
-
-                font-size: 20px;
-                position: absolute;
-                top: 13px;
-                /*left: 518px;*/
-                left: 50%;
-                transform: translateX(1%);
-
-            }
-
-            .aboutMe>p{
-                color: white;
-                position: relative;
-                top: -299px;
-                left: 490px;
-                font-size: 18px !important;
-            }
-
-            #downloadImage>img{
-                /*left: 661px;*/
-                left: 50%;
-                transform: translateX(-420%);
-                top: -138px;
-                position: relative;
-                width: 34px;
-                height: 33px;
-                margin-right: 10px;
-            }
-
-            .aboutMe>div>button{
-
-                position: relative;
-                background-color: #40A2D8;
-                top: -144px;
-                /*left: 733px;*/
-                left: 50%;
-                transform: translateX(-80%);
-                color: black;
-                font-size: 20px;
-                border: 2px solid black;
-
-                width: 150px;
-                height: 50px;
-
-            }
-
-
-        }
-
-        @media all and (max-width: 1440px) {
-
-            header {
-                top: 0;
-                position: fixed;
-                width: 100vw;
-                height: 7vh;
-                background-color: #0B60B0;
-                border-radius: 20px;
-                left: 0;
-
-            }
-
-
-            header>nav{
-
-                font-size: 20px;
-                position: absolute;
-                top: 13px;
-                /*left: 949px;*/
-                left: 50%;
-                transform: translateX(1%);
-
-            }
-            .aboutMe>div>h3{
-                color: white;
-                text-align: center;
-                font-size: 40px;
-                position: relative;
-                top: -8px;
-            }
-
-            .aboutMe>p{
-                color: white;
-                position: relative;
-                top: -360px;
-                left: 490px;
-                font-size: 23px;
-            }
-
-            #aboutPhoto>img{
-                position: relative;
-                top: 35px;
-                left: 40px;
-                width: 426px;
-                height: 383px;
-            }
-
-            .aboutMe>div>button{
-
-                position: relative;
-                background-color: #40A2D8;
-                top: -144px;
-                left: 852px;
-                color: black;
-                font-size: 20px;
-                border: 2px solid black;
-
-                width: 150px;
-                height: 50px;
-
-            }
-
-            #downloadImage>img{
-                left: 847px;
-                top: -138px;
-                position: relative;
-                width: 34px;
-                height: 33px;
-                margin-right: 10px;
-            }
-        }
 
 
     </style>
@@ -379,35 +199,28 @@
         <hr color="0B60B0">
     </section>
 
-    <section>
+    <section class="education">
         <div>
             <h3 id="education">EDUCATION</h3>
         </div>
 
-        <br><br>
 
 
-        <div>
-            <img src="assets/images/PMV.png" title="pmv" alt="pmv logo" width="200">
+
+        <div class="rec">
+           <img src="assets/images/PMV.png" title="pmv" alt="pmv logo">
+                 <p class="desc">
+                ⭐ Studied from grade 1-11 at WP/HO Polegoda M.V.<br>
+                     ⭐ Completed O/L examination at Polegoda M.V. with grades A7 B1 and C1
+           </p>
+
         </div>
 
-        <div>
-            <p>
-                ⭐ Studied from grade 1-11 at WP/HO Polegoda M.V.
-            </p>
-            <br>
-            <p>
-                ⭐ Completed O/L examination at Polegoda M.V. with grades A7 B1 and C1
-            </p>
-        </div>
 
-        <br><br><br>
 
-        <div>
-            <img src="assets/images/KCC.png" title="kcc" alt="kcc logo" width="200">
-        </div>
 
-        <div>
+        <div id="kcc">
+            <img src="assets/images/KCC.png" title="kcc" alt="kcc logo" >
             <p>
                 ⭐Studied from grade 12-13 at C.W.W.Kannangara M.M.V.
             </p>
@@ -432,17 +245,15 @@
                 CCS (Combined Maths, Physics,Chemistry)
             </p>
         </div>
-        <br><br><br>
 
-        <div>
-            <img src="assets/images/IJSE.png" title="ijse" alt="ijse logo" width="200">
-        </div>
-
-        <div>
-            <p>
+        <div class="rec">
+            <img src="assets/images/IJSE.png" title="ijse" alt="ijse logo" >
+            <p class="desc">
                 ⭐ Currently I’m studying in IJSE
             </p>
         </div>
+
+
         <br><br>
 
         <hr color="0B60B0">
