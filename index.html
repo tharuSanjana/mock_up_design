@@ -9,72 +9,131 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="HomePage.css">
     <link rel="stylesheet" href="AboutMe.css">
+    <link rel="stylesheet" href="Education.css">
     <style>
 
-    .education>div>h3{
-        color: #0B60B0;
-        text-align: center;
-        font-size: 40px;
-        position: relative;
-        top: -8px;
-    }
+        .proAss>div>h3{
+            color: #0B60B0;
+            text-align: center;
+            font-size: 40px;
+            position: relative;
+            top: 20px;
+        }
 
-    .rec{
-        position: relative;
-        top: 30px;
-        left: 50px;
-        background-color: #40A2D8;
-        width: 93vw;
-        height: 52vh;
-    }
+        .proAss>#pro>img{
+            filter: brightness(51%);
+            position: relative;
+            top: 50px;
+            width: 200px;
+            height: 200px;
+            left: 517px;
+            margin: 10px;
+            border: 7px solid white;
+        }
 
-    .rec>img{
-        position: relative;
-        top: 57px;
-        left: 50px;
-        width: 174px;
-        height: 168px
+        .arrowKeys {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 527px;
+        }
 
-    }
+        .arrow {
+            position: relative;
+            top: -94px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
 
-    .desc{
-        position: absolute;
-        top: 11px;
-        left: 483px;
-        font-size: 20px;
-        line-height: 106px;
-    }
+        .left {
+            border-width: 20px 20px 20px 0;
+            border-color: transparent #007bff transparent transparent;
+        }
 
-    #kcc>img{
-        position: relative;
-        top: 108px;
-        left: 102px;
-        width: 174px;
-        height: 168px;
-    }
+        .right {
+            border-width: 20px 0 20px 20px;
+            border-color: transparent transparent transparent #007bff;
+        }
 
-    #kcc>p{
-        color: white;
-        position: relative;
-        top: -95px;
-        left: 538px;
-        font-size: 21px;
-    }
+        .yummy-description {
+            position: absolute;
+            bottom: -3122px;
+            left: 552px;
+            width: 12%;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 13px 0;
+            font-size: 11px;
 
-    #kcc>h2{
-        color: white;
-        position: relative;
-        top: -100px;
-        left: 535px;
-        font-size: 21px;
-    }
+        }
 
-    #kcc>h4{
-        color: white;
-        position: relative;
-        top: -93px;
-        left: 600px;
-    }
+        .chat-description {
+            position: absolute;
+            bottom: -3122px;
+            left: 788px;
+            width: 12%;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 13px 0;
+            font-size: 11px;
+
+        }
+
+        .githubSearch>img{
+            position: relative;
+            left: 538px;
+            border-radius: 100%;
+            width: 20px;
+            aspect-ratio: 1/1;
+            margin: 0 95px;
+        }
+
+        .assignments{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+
+
+        .assignments>div{
+            border-radius: 10%;
+            filter: brightness(144%);
+            position: relative;
+            top: 100px;
+            width: 200px;
+            height: 200px;
+
+            margin: 15px auto;
+
+            background-image: url("assets/images/assignments.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .assignmentNumber>label{
+            color:#0B60B0;
+            font-size: 28px;
+            position: absolute;
+            top: 76px;
+            left: 20px;
+
+        }
+
+        .assignmentNumber>img{
+            position: relative;
+            left: 538px;
+            border-radius: 100%;
+            width: 20px;
+            aspect-ratio: 1/1;
+            margin: 0 95px;
+        }
         /*Education CSS*/
 
 
@@ -109,188 +168,6 @@
 
 
         /*Education media query*/
-    @media all and (max-width: 768px) {
-
-        .rec{
-            position: relative;
-            top: 30px;
-            left: 27px !important;
-            background-color: #40A2D8;
-            width: 93vw;
-            height: 52vh;
-        }
-
-        .rec>img{
-            position: relative;
-            top: 131px !important;
-            left: 50px;
-            width: 174px;
-            height: 168px
-
-        }
-
-        .desc{
-            position: absolute;
-            top: 101px !important;
-            left: 256px !important;
-            font-size: 20px;
-            line-height: 64px!important;
-        }
-
-        #kcc>img{
-            position: relative;
-            top: 108px;
-            left: 35px !important;
-            width: 174px;
-            height: 168px;
-        }
-
-        #kcc>p{
-            color: white;
-            position: relative;
-            top: -95px;
-            /*left: 200px !important;*/
-            left: 50%; /* Start from the middle of the container */
-            transform: translateX(-18%);
-            font-size: 21px;
-        }
-
-        #kcc>h2{
-            color: white;
-            position: relative;
-            top: -100px;
-            left: 50%; /* Start from the middle of the container */
-            transform: translateX(-18%);
-            font-size: 21px;
-        }
-
-
-        #kcc>h4{
-            color: white;
-            position: relative;
-            top: -93px;
-            left: 50%; /* Start from the middle of the container */
-            transform: translateX(-18%);
-        }
-    }
-
-    @media all and (max-width: 1024px) {
-        .rec{
-            position: relative;
-            top: 30px;
-            left: 50px;
-            background-color: #40A2D8;
-            width: 93vw;
-            height: 52vh;
-        }
-
-        .desc{
-            position: absolute;
-            top: 30px !important;
-            left: 483px;
-            font-size: 20px;
-            line-height: 106px;
-        }
-
-        #kcc>p{
-            color: white;
-            position: relative;
-            top: -95px;
-            left: 359px !important;
-            font-size: 21px;
-        }
-
-        #kcc>h2{
-            color: white;
-            position: relative;
-            top: -100px;
-            left: 364px !important;
-            font-size: 21px;
-        }
-
-        #kcc>h4{
-            color: white;
-            position: relative;
-            top: -93px;
-            left: 429px !important;
-        }
-    }
-
-    @media all and (max-width: 1440px) {
-        .rec{
-            position: relative;
-            top: 30px;
-            left: 50px;
-            background-color: #40A2D8;
-            width: 93vw;
-            height: 52vh;
-        }
-
-        .education>div>h3{
-            color: #0B60B0;
-            text-align: center;
-            font-size: 40px;
-            position: relative;
-            top: -8px;
-        }
-
-        .rec{
-            position: relative;
-            top: 30px;
-            left: 50px;
-            background-color: #40A2D8;
-            width: 93vw;
-            height: 54vh;
-        }
-
-        .rec>img{
-            position: relative;
-            top: 57px;
-            left: 50px;
-            width: 174px;
-            height: 168px
-
-        }
-
-        .desc{
-            position: absolute;
-            top: 11px;
-            left: 292px;
-            font-size: 20px;
-            line-height: 106px;
-        }
-
-        #kcc>img{
-            position: relative;
-            top: 108px;
-            left: 102px;
-            width: 174px;
-            height: 168px;
-        }
-
-        #kcc>p{
-            color: white;
-            position: relative;
-            top: -95px;
-            left: 538px;
-            font-size: 21px;
-        }
-
-        #kcc>h2{
-            color: white;
-            position: relative;
-            top: -100px;
-            left: 535px;
-            font-size: 21px;
-        }
-
-        #kcc>h4{
-            color: white;
-            position: relative;
-            top: -93px;
-            left: 600px;
-        }
-    }
 
 
     </style>
@@ -441,42 +318,86 @@
     </section>
 
 
-    <section>
+    <section class="proAss">
 
         <div>
             <h3 id="project">PROJECT</h3>
         </div>
 
-        <div>
-            <img src="assets/images/yummyFoodSs.png" title="Yummy Food" alt="Yummy Food photo" width="300" height="300">
-            <img src="assets/images/ClientServerSs.png" title="Chat Application" alt="Chat Application photo" width="400" height="300">
-            <img src="assets/images/leftKey.png" title="Left" alt="left key" width="40">
-            <img src="assets/images/rightKey.png"  title="Right" alt="right key" width="40">
-            <img src="assets/images/github.png" title="Github"  alt="Github logo" width="30">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
+        <div id="pro">
+            <img src="assets/images/yummyFoodSs.png" title="Yummy Food" alt="Yummy Food photo">
+            <div class="yummy-description">Yummy Food Management System</div>
+            <img src="assets/images/ClientServerSs.png" title="Chat Application" alt="Chat Application photo">
+            <div class="chat-description">Chat Application</div>
+
+              <!--<div></div>
+              <div></div>-->
+
+          </div>
+
+        <div class="githubSearch">
+            <img src="assets/images/github.png" title="Github" alt="Github photo">
+            <img src="assets/images/github.png" title="Github" alt="Github photo">
+
         </div>
-        <br><br>
+
+
+        <div class="arrowKeys">
+            <div class="arrow left"></div>
+            <div class="arrow right"></div>
+        </div>
 
         <div>
             <h3>ASSIGNMENTS</h3>
         </div>
 
-        <div>
-            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
+        <div class="assignments">
+            <!--<img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
             <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
             <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
             <br>
             <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
             <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
-            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
-            <img src="assets/images/leftKey.png" title="Left key"alt="left key" width="40">
+            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">-->
+            <div class="assignmentNumber">
+                <label><b>Assignment 01</b></label>
+                <img src="assets/images/github.png" title="Github" alt="Github logo" class="assGit">
+            </div>
+            <div  class="assignmentNumber">
+                <label><b>Assignment 02</b></label>
+            </div>
+            <div  class="assignmentNumber">
+                <label><b>Assignment 03</b></label>
+            </div>
+
+            <div  class="assignmentNumber">
+                <label><b>Assignment 04</b></label>
+            </div>
+            <div  class="assignmentNumber">
+                <label><b>Assignment 05</b></label>
+            </div>
+            <div  class="assignmentNumber">
+                <label><b>Assignment 06</b></label>
+            </div>
+
+            <div class="assignmentNumber">
+                <label><b>Assignment 07</b></label>
+            </div>
+            <div class="assignmentNumber">
+                <label><b>Assignment 08</b></label>
+            </div>
+            <div class="assignmentNumber">
+                <label><b>Assignment 09</b></label>
+            </div>
+
+           <!-- <img src="assets/images/leftKey.png" title="Left key"alt="left key" width="40">
             <img src="assets/images/rightKey.png" title="Right key" alt="right key" width="40">
             <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
             <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
             <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
             <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
             <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
+            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">-->
         </div>
         <br><br>
 
