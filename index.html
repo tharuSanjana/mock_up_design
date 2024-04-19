@@ -7,295 +7,22 @@
     <meta name="author" content="Tharushi Sanjana">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="AboutMe.css">
     <link rel="stylesheet" href="Education.css">
+    <link rel="stylesheet" href="Project.css">
+    <link rel="stylesheet" href="Skill.css">
+    <link rel="stylesheet" href="Gallery.css">
+
     <style>
 
-        .proAss>div>h3{
+        .contact>div>h3{
             color: #0B60B0;
             text-align: center;
             font-size: 40px;
             position: relative;
-            top: 20px;
+            top: -259px;
         }
-
-        .proAss>#pro>img{
-            filter: brightness(51%);
-            position: relative;
-            top: 50px;
-            width: 200px;
-            height: 200px;
-            left: 517px;
-            margin: 10px;
-            border: 7px solid white;
-        }
-
-        .arrowKeys {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 527px;
-        }
-
-        .arrow {
-            position: relative;
-            top: -94px;
-            left: 35px;
-            width: 0;
-            height: 0;
-            border-style: solid;
-        }
-
-        .left {
-            border-width: 20px 20px 20px 0;
-            border-color: transparent #007bff transparent transparent;
-        }
-
-        .right {
-            border-width: 20px 0 20px 20px;
-            border-color: transparent transparent transparent #007bff;
-        }
-
-        .yummy-description {
-            position: absolute;
-            bottom: -3122px;
-            left: 566px !important;
-            width: 12%;
-            text-align: center;
-            color: white;
-            font-weight: bold;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 13px 0;
-            font-size: 15px;
-            transform: translate(-3%, -126%);
-        }
-
-        .chat-description {
-            position: absolute;
-            bottom: -3122px;
-            left: 795px !important;
-            width: 12%;
-            text-align: center;
-            color: white;
-            font-weight: bold;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 13px 0;
-            font-size: 15px;
-            transform: translate(-5%, -199%);
-        }
-
-        .githubSearch>img{
-            position: relative;
-            left: 538px;
-            border-radius: 100%;
-            width: 20px;
-            aspect-ratio: 1/1;
-            margin: 0 95px;
-        }
-
-        .assignments{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            column-gap: 20px;
-            row-gap: 20px;
-        }
-
-
-        .assignments>div{
-            border-radius: 10%;
-            filter: brightness(68%);
-            position: relative;
-            top: 100px;
-            width: 200px;
-            height: 200px;
-
-            margin: 15px auto;
-
-            background-image: url("assets/images/assignments.png");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .assignmentNumber>label{
-            color:#0B60B0;
-            font-size: 28px;
-            position: absolute;
-            top: 76px;
-            left: 20px;
-
-        }
-
-       /* .assignmentNumber>img{
-            position: relative;
-            left: 538px;
-            border-radius: 100%;
-            width: 20px;
-            aspect-ratio: 1/1;
-            margin: 0 95px;
-        }*/
-
-
-        .assignmentNumber img {
-            width: 50px;
-            height: auto;
-            display: block;
-            margin: 10px auto;
-        }
-
-
-        img.assGit {
-            filter: brightness(300%);
-            border-radius: 50%;
-        }
-        @media all and (max-width: 768px) {
-
-            .proAss>#pro>img{
-                filter: brightness(51%);
-                position: relative;
-                top: 50px;
-                width: 200px;
-                height: 200px;
-                left: 180px !important;
-                margin: 10px;
-                border: 7px solid white;
-            }
-
-            .githubSearch>img{
-                position: relative;
-                left: 211px !important;
-                border-radius: 100%;
-                width: 20px;
-                aspect-ratio: 1/1;
-                margin: 0 95px;
-            }
-
-            .yummy-description {
-                position: absolute;
-                bottom: -3122px;
-                left: 556px !important;
-                width: 14%;
-                text-align: center;
-                color: white;
-                font-weight: bold;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 13px 0;
-                font-size: 15px;
-                transform: translate(-153%, -96%) !important;
-            }
-
-        }
-        @media all and (max-width: 1024px) {
-
-            .proAss>#pro>img{
-                filter: brightness(51%);
-                position: relative;
-                top: 50px;
-                width: 200px;
-                height: 200px;
-                left: 309px;
-                margin: 10px;
-                border: 7px solid white;
-            }
-
-            .yummy-description {
-                position: absolute;
-                bottom: -3122px;
-                left: 556px !important;
-                width: 14%;
-                text-align: center;
-                color: white;
-                font-weight: bold;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 13px 0;
-                font-size: 15px;
-                transform: translate(-153%, -96%) !important;
-            }
-
-            .githubSearch>img{
-                position: relative;
-                left: 333px;
-                border-radius: 100%;
-                width: 20px;
-                aspect-ratio: 1/1;
-                margin: 0 95px;
-            }
-
-            .chat-description {
-                position: absolute;
-                bottom: -3122px;
-                left: 620px !important;
-                width: 12%;
-                text-align: center;
-                color: white;
-                font-weight: bold;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 13px 0;
-                font-size: 15px;
-                transform: translate(-5%, -105%);
-            }
-
-
-
-        }
-        @media all and (max-width: 1440px) {
-
-            .arrowKeys {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 527px;
-            }
-
-            .arrow {
-                position: relative;
-                top: -94px;
-                width: 0;
-                height: 0;
-                border-style: solid;
-            }
-
-            .left {
-                border-width: 20px 20px 20px 0;
-                border-color: transparent #007bff transparent transparent;
-            }
-
-            .right {
-                border-width: 20px 0 20px 20px;
-                border-color: transparent transparent transparent #007bff;
-            }
-
-            .yummy-description {
-                position: absolute;
-                bottom: -3122px;
-                left: 552px;
-                width: 12%;
-                text-align: center;
-                color: white;
-                font-weight: bold;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 13px 0;
-                font-size: 15px;
-                transform: translate(-3%, -126%);
-            }
-
-            .chat-description {
-                position: absolute;
-                bottom: -3122px;
-                left: 788px;
-                width: 12%;
-                text-align: center;
-                color: white;
-                font-weight: bold;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 13px 0;
-                font-size: 15px;
-                transform: translate(-5%, -199%);
-            }
-        }
-
-
 
         /*Home media query*/
 
@@ -473,7 +200,7 @@
 
     </section>
 
-
+<br><br>
     <section class="proAss">
 
         <div>
@@ -508,13 +235,7 @@
         </div>
 
         <div class="assignments">
-            <!--<img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
-            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
-            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
-            <br>
-            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
-            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">
-            <img src="assets/images/assignments.png" title="Assignments" alt="Assignment photo" width="200">-->
+
             <div class="assignmentNumber">
                 <label><b>Assignment 01</b></label>
                 <img src="assets/images/github.png" title="Github" alt="Github logo" class="assGit">
@@ -554,54 +275,74 @@
                 <img src="assets/images/github.png" title="Github" alt="Github logo" class="assGit">
             </div>
 
-           <!-- <img src="assets/images/leftKey.png" title="Left key"alt="left key" width="40">
-            <img src="assets/images/rightKey.png" title="Right key" alt="right key" width="40">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">
-            <img src="assets/images/github.png" title="Github" alt="Github logo" width="30">-->
+
         </div>
 
     </section>
 <br><br>
-    <section>
+
+    <section class="skill">
         <div>
             <h3 id="skills">SKILLS</h3>
         </div>
 
-        <div>
-            <img src="assets/images/mysql.png"title="Mysql" alt="Mysql logo" width="200">
-            <img src="assets/images/leftKey.png" title="Left key"alt="left key" width="40">
-            <img src="assets/images/rightKey.png" title="Right key" alt="right key" width="40">
-        </div>
-        <br>
+        <div id="blueRec">
+<section class="skillImages">
 
-        <hr color="0B60B0">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</section>
+           <!-- <img src="assets/images/mysql.png" title="Mysql" alt="Mysql logo">
+            <img src="assets/images/java.png" title="Java" alt="Java logo">
+            <img src="assets/images/html.png" title="Html" alt="Html logo">
+            <img src="assets/images/css.png" title="Css" alt="Css logo">
+            <img src="assets/images/hibernate.png" title="Hibernate" alt="Hibernate logo">-->
+
+        </div>
+
 
     </section>
 
-    <section>
-
+    <section class="gallery">
+    <div>
         <h3 id="gallery">GALLERY</h3>
-        <div>
-            <img src="assets/images/gallery%20Photo%205.jpg" title="gallery photo" alt="Gallery Photo" width="100">
-            <img src="assets/images/gallery%20Photo%203.jpg" title="gallery photo" alt="Gallery Photo" width="100" >
-            <img src="assets/images/gallrery%20Photo%204.jpg" title="gallery photo" alt="Gallery Photo"width="100" >
-            <br>
-            <img src="assets/images/gallery%20Photo%201.jpg" title="gallery photo" alt="Gallery Photo" width="200">
-            <img src="assets/images/galllery%20Photo%202.jpg" title="gallery photo" alt="Gallery Photo" width="100" height="120">
+    </div>
+
+        <div id="p1">
+            <img src="assets/images/gallery%20Photo%205.jpg" title="gallery photo" alt="Gallery Photo">
         </div>
+
+        <div id="p2">
+            <img src="assets/images/gallery%20Photo%203.jpg" title="gallery photo" alt="Gallery Photo">
+        </div>
+
+        <div id="p3">
+            <img src="assets/images/gallrery%20Photo%204.jpg" title="gallery photo" alt="Gallery Photo" >
+        </div>
+
+        <div id="p4">
+            <img src="assets/images/gallery%20Photo%201.jpg" title="gallery photo" alt="Gallery Photo">
+        </div>
+
+        <div id="p5">
+            <img src="assets/images/galllery%20Photo%202.jpg" title="gallery photo" alt="Gallery Photo">
+        </div>
+       <!-- <img src="assets/images/gallery%20Photo%203.jpg" title="gallery photo" alt="Gallery Photo" width="100" >
+        <img src="assets/images/gallrery%20Photo%204.jpg" title="gallery photo" alt="Gallery Photo"width="100" >
         <br>
-        <hr color="0B60B0">
+        <img src="assets/images/gallery%20Photo%201.jpg" title="gallery photo" alt="Gallery Photo" width="200">
+        <img src="assets/images/galllery%20Photo%202.jpg" title="gallery photo" alt="Gallery Photo" width="100" height="120">-->
 
     </section>
 
-    <section>
+    <section class="contact">
 
         <div>
-            <h3 id="contact me">CONTACT ME</h3>
+            <h3>CONTACT ME</h3>
         </div>
 
         <div>
