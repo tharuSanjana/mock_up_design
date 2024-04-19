@@ -24,6 +24,35 @@
             top: -259px;
         }
 
+        #contactRec{
+            position: relative;
+            width: 30px;
+            height: 30px;
+            color: white;
+            left: 50px;
+            top: 40px;
+        }
+
+        #contactRec {
+            position: relative;
+            top: -149px;
+            left: 452px;
+            width: 656px;
+            height: 561px;
+            background-color: white;
+            border: 13px solid #007bff;
+            border-radius: 9%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        #contactRec>dl>dt{
+            color: mediumblue;
+            font-size: 43px;
+            position: absolute;
+            left: 260px;
+        }
+
         /*Home media query*/
 
        /*     @media all and (max-width: 320px) {
@@ -345,10 +374,10 @@
             <h3>CONTACT ME</h3>
         </div>
 
-        <div>
+        <div id="contactRec">
 
             <dl>
-                <dt>Contact</dt>
+                <dt><b>Contact</b></dt>
                 <br>
                 <dd style="display: inline;">Name</dd>
                 <input type="text" style="display: inline;">
@@ -364,11 +393,14 @@
 
             </dl>
         </div>
-    </section>
+
         <div>
             <button>Cancel</button>
             <button>Send</button>
         </div>
+
+    </section>
+
 
 
 </main>
