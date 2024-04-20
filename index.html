@@ -25,14 +25,7 @@
             top: -259px;
         }
 
-        /*#contactRec{
-            position: relative;
-            width: 30px;
-            height: 30px;
-            color: white;
-            left: 50px;
-            top: 40px;
-        }*/
+
 
         #contactRec {
             position: relative;
@@ -60,16 +53,7 @@
             position: absolute;
             top: 0;
         }
-       /* .details{
-            color: white;
-            font-size: 19px;
-            position: absolute;
-            left: 11px;
-            display: block; !* Display <dd> elements as block *!
-            margin-bottom: 10px; !* Add some space between each <dd> element *!
-            font-weight: bold; /
 
-        }*/
 
         #contactRec>dd{
             display: inline;
@@ -93,15 +77,10 @@
         .details input {
             width: 35%;
             padding: 5px;
+              background-color: rgba(255, 255, 255, 0.1);
         }
 
-       /* #button{
-            background-color: black;
-            color: white;
-            position: absolute;
-            top: 505px;
-            left: 412px;
-        }*/
+
 
         #button {
             position: absolute;
@@ -113,16 +92,105 @@
         #button button {
             background-color: black;
             color: dodgerblue;
-            padding: 8px 20px; /* Adjust padding to increase button size */
-            margin-right: 10px; /* Add some space between buttons */
-            border: none; /* Remove default button border */
-            border-radius: 5px; /* Add rounded corners to buttons */
-            cursor: pointer; /* Change cursor to pointer on hover */
+            padding: 8px 20px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
             font-size: 17px;
         }
 
         #button button:hover {
-            opacity: 0.8; /* Reduce opacity slightly on hover for a visual effect */
+            opacity: 0.8;
+        }
+
+        @media all and (min-width: 1025px ) and (max-width: 1440px){
+            .contact>div>h3{
+                color: #0B60B0;
+                text-align: center;
+                font-size: 40px;
+                position: relative;
+                top: -259px;
+            }
+
+
+
+            #contactRec {
+                position: relative;
+                top: -149px;
+                left: 452px;
+                width: 656px;
+                height: 561px;
+
+                border: 13px solid white;
+
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-top: 20px;
+            }
+
+            #contactRec>dt{
+                top: 41px;
+                color: dodgerblue;
+                font-size: 43px;
+                position: absolute;
+                left: 260px;
+                text-align: center;
+            }
+
+            #contactRec>dl{
+                position: absolute;
+                top: 0;
+            }
+
+
+            #contactRec>dd{
+                display: inline;
+            }
+
+            .details {
+                color: white;
+                font-size: 19px;
+                position: relative;
+                margin-bottom: 22px;
+                top: 147px;
+                left: 56px;
+            }
+
+            .details label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 11px;
+            }
+
+            .details input {
+                width: 35%;
+                padding: 5px;
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+
+
+
+            #button {
+                position: absolute;
+                top: 499px;
+                left: 412px;
+
+            }
+
+            #button button {
+                background-color: black;
+                color: dodgerblue;
+                padding: 8px 20px;
+                margin-right: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 17px;
+            }
+
+            #button button:hover {
+                opacity: 0.8;
+            }
         }
         /*Home media query*/
 
