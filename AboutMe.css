@@ -218,7 +218,7 @@ header > nav a {
         position: absolute;
         top: 13px;
         /*left: 949px;*/
-        left: 50%;
+        left: 63%;
         transform: translateX(1%);
 
     }
