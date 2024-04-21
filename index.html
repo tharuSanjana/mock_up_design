@@ -17,6 +17,11 @@
 
     <style>
 
+
+        body {
+            overflow-x: hidden;
+        }
+
         .contact>div>h3{
             color: #0B60B0;
             text-align: center;
@@ -106,10 +111,64 @@
         @media all and (min-width: 321px ) and (max-width: 460px){
             .contact>div>h3{
                 color: #0B60B0;
-                left: 24px;
-                font-size: 28px;
+                left: 151px;
+                font-size: 34px;
                 position: relative;
                 top: -259px;
+            }
+
+            #contactRec {
+                position: relative;
+                top: -149px;
+                left: 111px;
+                width: 587px;
+                height: 561px;
+
+                border: 13px solid white;
+
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-top: 20px;
+            }
+
+            .details {
+                color: white;
+                font-size: 15px;
+                position: relative;
+                margin-bottom: 22px;
+                top: 147px;
+                left: 56px;
+            }
+
+
+            #contactRec>dt{
+                top: 41px;
+                color: dodgerblue;
+                font-size: 43px;
+                position: absolute;
+                left: 218px;
+
+            }
+
+            #button {
+                position: absolute;
+                top: 499px;
+                left: 373px;
+
+            }
+
+            #button button {
+                background-color: black;
+                color: dodgerblue;
+                padding: 8px 20px;
+                margin-right: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 17px;
+            }
+
+            #button button:hover {
+                opacity: 0.8;
             }
         }
         @media all and (min-width: 461px ) and (max-width: 768px){
