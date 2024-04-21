@@ -1,0 +1,482 @@
+body {
+    overflow-x: hidden;
+}
+
+.contact>div>h3{
+    color: #0B60B0;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: -259px;
+}
+
+
+
+#contactRec {
+    position: relative;
+    top: -149px;
+    left: 367px;
+    width: 656px;
+    height: 561px;
+
+    border: 13px solid white;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#contactRec>dt{
+    top: 41px;
+    color: dodgerblue;
+    font-size: 43px;
+    position: absolute;
+    left: 260px;
+    text-align: center;
+}
+
+#contactRec>dl{
+    position: absolute;
+    top: 0;
+}
+
+
+#contactRec>dd{
+    display: inline;
+}
+
+.details {
+    color: white;
+    font-size: 19px;
+    position: relative;
+    margin-bottom: 22px;
+    top: 147px;
+    left: 56px;
+}
+
+.details label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.details input {
+    width: 35%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+#button {
+    position: absolute;
+    top: 499px;
+    left: 412px;
+
+}
+
+#button button {
+    background-color: black;
+    color: dodgerblue;
+    padding: 8px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#button button:hover {
+    opacity: 0.8;
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+    .contact>div>h3{
+        color: #0B60B0;
+        left: 151px;
+        font-size: 34px;
+        position: relative;
+        top: -259px;
+    }
+
+    #contactRec {
+        position: relative;
+        top: -149px;
+        left: 111px;
+        width: 587px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .details {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 56px;
+    }
+
+
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 218px;
+
+    }
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 373px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 34px;
+        position: relative;
+        top: -259px;
+    }
+
+    #contactRec {
+        position: relative;
+        top: -149px;
+        left: 111px;
+        width: 587px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .details {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 56px;
+    }
+
+
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 218px;
+
+    }
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 373px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }
+
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -259px;
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -259px;
+    }
+
+    #contactRec {
+        position: relative;
+        top: -149px;
+        left: 185px;
+        width: 656px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 260px;
+        text-align: center;
+    }
+
+    .details {
+        color: white;
+        font-size: 19px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 56px;
+    }
+
+    .details label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 11px;
+    }
+
+    .details input {
+        width: 35%;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 412px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }
+
+}
+
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -259px;
+    }
+
+
+    #contactRec {
+        position: relative;
+        top: -149px;
+        left: 367px;
+        width: 656px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 260px;
+        text-align: center;
+    }
+
+    /*   #contactRec>dl{
+           position: absolute;
+           top: 0;
+       }*/
+
+
+    /* #contactRec>dd{
+         display: inline;
+     }*/
+
+    .details {
+        color: white;
+        font-size: 19px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 56px;
+    }
+
+    .details label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 11px;
+    }
+
+    .details input {
+        width: 35%;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 412px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }
+}
+
+@media all and  (min-width:1440px){
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -259px;
+    }
+
+
+
+    #contactRec {
+        position: relative;
+        top: -149px;
+        left: 367px;
+        width: 656px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 260px;
+        text-align: center;
+    }
+
+    #contactRec>dl{
+        position: absolute;
+        top: 0;
+    }
+
+
+    #contactRec>dd{
+        display: inline;
+    }
+
+    .details {
+        color: white;
+        font-size: 19px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 56px;
+    }
+
+    .details label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 11px;
+    }
+
+    .details input {
+        width: 35%;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 412px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }
+}
