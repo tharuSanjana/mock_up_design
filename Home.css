@@ -505,7 +505,7 @@ section>div>h5{
     #im{
         color: white;
         position: relative;
-        top: -355px;
+        top: -337px;
         bottom: 0;
         left: 279px;
         font-size: 60px;
@@ -514,25 +514,25 @@ section>div>h5{
     #name{
         color: white;
         position: relative;
-        top: -413px;
+        top: -383px;
         bottom: 0;
-        left: 234px;
+        left: 226px;
         font-size: 29px;
     }
 
     section>div>h5{
         color: cornflowerblue;
         position: relative;
-        top: -434px;
+        top: -399px;
         bottom: 0;
-        left: 245px;
+        left: 236px;
         font-size: 25px;
     }
 
     #contactButton>button{
         position: relative;
         left: 270px;
-        top: -423px;
+        top: -389px;
         font-size: 16px;
         color: white;
         background-color: black;
