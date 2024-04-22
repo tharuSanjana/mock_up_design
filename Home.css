@@ -444,6 +444,102 @@ section>div>h5{
         left: 108px;
     }
 }*/
+@media all and (min-width: 321px ) and (max-width: 460px){
+    header > #menu {
+
+        position: absolute;
+        top: 34px;
+        left: 76%;
+        transform: translateX(-50%);
+    }
+
+    .menu-btn {
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .menu-btn span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        margin-bottom: 6px;
+    }
+
+
+    #socialImages>img{
+        position: relative;
+        border-radius: 100%;
+        width: 27px;
+        aspect-ratio: 1/1;
+        top: -391px;
+        left: 59px;
+    }
+
+    main>section>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 75px;
+        left: 27px;
+        border-radius: 30px;
+        width:196px ;
+        height: 367px;
+    }
+
+    main>section>div>h1{
+        color: #40A2D8;
+        position: relative;
+        top: -288px;
+        bottom: 0;
+        left: 253px;
+        font-size: 67px;
+        margin: auto;
+    }
+
+    #im{
+        color: white;
+        position: relative;
+        top: -355px;
+        bottom: 0;
+        left: 279px;
+        font-size: 60px;
+    }
+
+    #name{
+        color: white;
+        position: relative;
+        top: -413px;
+        bottom: 0;
+        left: 234px;
+        font-size: 29px;
+    }
+
+    section>div>h5{
+        color: cornflowerblue;
+        position: relative;
+        top: -434px;
+        bottom: 0;
+        left: 245px;
+        font-size: 25px;
+    }
+
+    #contactButton>button{
+        position: relative;
+        left: 270px;
+        top: -423px;
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        border: 5px solid white;
+    }
+
+}
 @media all and (min-width: 461px ) and (max-width: 768px){
 
     body{
