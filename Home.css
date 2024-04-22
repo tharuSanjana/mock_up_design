@@ -444,6 +444,126 @@ section>div>h5{
         left: 108px;
     }
 }*/
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+    body{
+        background-color: black;
+    }
+    header{
+        top: 0;
+        position: fixed;
+        width: 99vw;
+        height: 7vh;
+        background-color: #0B60B0;
+        border-radius: 20px;
+        left: 0;
+        z-index: 1000;
+
+    }
+
+    header>nav{
+        font-size: 20px;
+        position: absolute;
+        top: 13px;
+        left: 0;
+        transform: translateX(56%);
+
+    }
+
+    header > nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+
+    }
+
+    header > nav a:hover {
+        color: #40A2D8;
+    }
+
+    main>section>div>h1{
+        color: #40A2D8;
+        position: relative;
+        top: -410px;
+        bottom: 0;
+        left: 447px;
+        font-size: 81px;
+        margin: auto;
+    }
+
+    #im{
+        color: white;
+        position: relative;
+        top: -463px;
+        bottom: 0;
+        left: 498px;
+        font-size: 72px;
+    }
+
+    #name{
+        color: white;
+        position: relative;
+        top: -508px;
+        bottom: 0;
+        left: 382px;
+        font-size: 46px;
+    }
+
+    section>div>h5{
+        color: cornflowerblue;
+        position: relative;
+        top: -553px;
+        bottom: 0;
+        left: 410px;
+        font-size: 38px;
+    }
+
+    #contactButton>button{
+        position: relative;
+        left: 503px;
+        top: -568px;
+        font-size: 21px;
+        color: white;
+        background-color: black;
+        border: 5px solid white;
+    }
+
+    #socialImages>img{
+        position: relative;
+        border-radius: 100%;
+        width: 36px;
+        aspect-ratio: 1/1;
+        top: -597px;
+        left: 108px;
+    }
+    /*
+        header > nav {
+            font-size: 20px;
+            position: absolute;
+            top: 13px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .menu-btn {
+            display: block;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .menu-btn span {
+            display: block;
+            width: 30px;
+            height: 4px;
+            background-color: white;
+            margin-bottom: 6px;
+        }*/
+}
 @media all and (min-width: 835px ) and (max-width: 1024px){
     body{
         background-color: black;
@@ -519,7 +639,7 @@ section>div>h5{
 
     #contactButton>button{
         position: relative;
-        left: 785px;
+        left: 647px;
         top: -639px;
         font-size: 21px;
         color: white;

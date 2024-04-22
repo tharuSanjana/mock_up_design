@@ -74,17 +74,17 @@ header > nav a {
 }
 
 @media all and (max-width: 768px) {
-    header>nav{
+   /* header>nav{
         font-size: 20px;
         position: absolute;
         top: 13px;
-        /*left: 270px;*/
+        !*left: 270px;*!
         left: 16% !important;
         transform: translateX(33%) !important;
 
 
     }
-
+*/
     #aboutPhoto>img{
         position: relative;
         top: 35px;
