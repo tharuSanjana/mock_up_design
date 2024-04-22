@@ -1,4 +1,4 @@
-header{
+/*header{
     top: 0;
     position: fixed;
     width: 99vw;
@@ -24,7 +24,7 @@ header > nav a {
     text-decoration: none;
     margin-right: 10px;
 
-}
+}*/
 
 .aboutMe>div>h3{
     color: #0B60B0;
@@ -137,7 +137,7 @@ header > nav a {
 @media all and (max-width: 1024px) {
 
 
-    header {
+   /* header {
         top: 0;
         position: fixed;
         width: 100vw;
@@ -153,12 +153,12 @@ header > nav a {
         font-size: 20px;
         position: absolute;
         top: 13px;
-        /*left: 518px;*/
+        !*left: 518px;*!
         left: 50%;
         transform: translateX(1%);
 
     }
-
+*/
     .aboutMe>p{
         color: white;
         position: relative;
@@ -197,10 +197,45 @@ header > nav a {
 
 
 }
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    /*body{
+        background-color: black;
+    }
+    header{
+        top: 0;
+        position: fixed;
+        width: 99vw;
+        height: 7vh;
+        background-color: #0B60B0;
+        border-radius: 20px;
+        left: 0;
+        z-index: 1000;
 
-@media all and (max-width: 1440px) {
+    }
 
-    header {
+    header>nav{
+        font-size: 20px;
+        position: absolute;
+        top: 13px;
+        left: 548px;
+
+
+    }
+
+    header > nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+
+    }
+
+    header > nav a:hover {
+        color: #40A2D8;
+    }*/
+}
+@media all and (min-width: 1440px) {
+
+   /* header {
         top: 0;
         position: fixed;
         width: 100vw;
@@ -217,11 +252,11 @@ header > nav a {
         font-size: 20px;
         position: absolute;
         top: 13px;
-        /*left: 949px;*/
+        !*left: 949px;*!
         left: 63%;
         transform: translateX(1%);
 
-    }
+    }*/
     .aboutMe>div>h3{
         color: #0B60B0;
         text-align: center;

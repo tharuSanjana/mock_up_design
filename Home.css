@@ -18,7 +18,7 @@ header>nav{
     position: absolute;
     top: 13px;
     left: 1000px;
-
+transform: translateX(0%);
 
 }
 
@@ -444,8 +444,7 @@ section>div>h5{
         left: 108px;
     }
 }*/
-
-@media all and (min-width: 1270px ) and (max-width: 1440px){
+@media all and (min-width: 835px ) and (max-width: 1024px){
     body{
         background-color: black;
     }
@@ -465,8 +464,93 @@ section>div>h5{
         font-size: 20px;
         position: absolute;
         top: 13px;
-        left: 1000px;
+        left: 532px;
+        transform: translateX(-6%);
 
+    }
+
+    header > nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+
+    }
+
+    header > nav a:hover {
+        color: #40A2D8;
+    }
+
+    main>section>div>h1{
+        color: #40A2D8;
+        position: relative;
+        top: -410px;
+        bottom: 0;
+        left: 575px;
+        font-size: 108px;
+        margin: auto;
+    }
+
+    #im{
+        color: white;
+        position: relative;
+        top: -482px;
+        bottom: 0;
+        left: 638px;
+        font-size: 88px;
+    }
+
+    #name{
+        color: white;
+        position: relative;
+        top: -569px;
+        bottom: 0;
+        left: 509px;
+        font-size: 57px;
+    }
+
+    section>div>h5{
+        color: cornflowerblue;
+        position: relative;
+        top: -618px;
+        bottom: 0;
+        left: 579px;
+        font-size: 38px;
+    }
+
+    #contactButton>button{
+        position: relative;
+        left: 785px;
+        top: -639px;
+        font-size: 21px;
+        color: white;
+        background-color: black;
+        border: 5px solid white;
+    }
+
+
+}
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    body{
+        background-color: black;
+    }
+    header{
+        top: 0;
+        position: fixed;
+        width: 99vw;
+        height: 7vh;
+        background-color: #0B60B0;
+        border-radius: 20px;
+        left: 0;
+        z-index: 1000;
+
+    }
+
+    header>nav{
+        font-size: 20px;
+        position: absolute;
+        top: 13px;
+        left: 941px;
+        transform: translateX(-1%);
 
     }
 
@@ -560,7 +644,8 @@ section>div>h5{
         font-size: 20px;
         position: absolute;
         top: 13px;
-        left: 1000px;
+        left: 941px;
+        transform: translateX(-1%);
 
 
     }
