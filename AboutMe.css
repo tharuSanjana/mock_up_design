@@ -26,35 +26,62 @@ header > nav a {
 
 }*/
 
+#whoAmI{
+    position: relative;
+    width: 187px;
+    height: 60px;
+    border: 5px solid dodgerblue;
+    left: 814px;
+    top: -789px;
+}
+
+#whoAmI>h4{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    top: -24px;
+    left: 17px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
 .aboutMe>div>h3{
     color: #0B60B0;
     text-align: center;
     font-size: 40px;
     position: relative;
-    top: -8px;
+    top: -537px;
 }
 
 .aboutMe>p{
     color: white;
     position: relative;
-    top: -360px;
-    left: 490px;
-    font-size: 23px;
+    top: -713px;
+    left: 653px;
+    font-size: 27px;
+    font-family: Papyrus,fantasy;
 }
 
-#aboutPhoto>img{
+
+#aboutPhoto > img {
+    width: 288px;
+    height: 288px;
+    object-fit: cover; /* Ensure the image covers the entire space */
+    border-radius: 10px; /* Add slight border radius for a softer look */
+    border: 13px solid #fff; /* Add a white border around the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transform: rotate(-2deg) translateX(-108px); /* Rotate and translate the image for a stacked effect */
+    top: -454px;
     position: relative;
-    top: 35px;
-    width: 426px;
-    height: 383px;
-
-    left: 40px;
+    left: 212px;
 }
+
+
+
 
 .aboutMe>div>button{
     position: relative;
     background-color: #40A2D8;
-    top: -144px;
+    top: -646px;
     left: 852px;
     color: black;
     font-size: 20px;
@@ -66,7 +93,7 @@ header > nav a {
 
 #downloadImage>img{
     left: 847px;
-    top: -138px;
+    top: -635px;
     position: relative;
     width: 34px;
     height: 33px;
@@ -233,9 +260,9 @@ header > nav a {
         color: #40A2D8;
     }*/
 }
-@media all and (min-width: 1440px) {
+/*@media all and (min-width: 1440px) {
 
-   /* header {
+   !* header {
         top: 0;
         position: fixed;
         width: 100vw;
@@ -256,7 +283,7 @@ header > nav a {
         left: 63%;
         transform: translateX(1%);
 
-    }*/
+    }*!
     .aboutMe>div>h3{
         color: #0B60B0;
         text-align: center;
@@ -304,5 +331,5 @@ header > nav a {
         height: 33px;
         margin-right: 10px;
     }
-}
+}*/
 
