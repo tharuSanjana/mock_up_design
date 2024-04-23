@@ -65,11 +65,11 @@ header > nav a {
 #aboutPhoto > img {
     width: 288px;
     height: 288px;
-    object-fit: cover; /* Ensure the image covers the entire space */
-    border-radius: 10px; /* Add slight border radius for a softer look */
-    border: 13px solid #fff; /* Add a white border around the image */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    transform: rotate(-2deg) translateX(-108px); /* Rotate and translate the image for a stacked effect */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 13px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: rotate(-2deg) translateX(-108px);
     top: -454px;
     position: relative;
     left: 212px;
@@ -225,6 +225,81 @@ header > nav a {
 
 }
 @media all and (min-width: 1025px ) and (max-width: 1440px){
+
+    #whoAmI{
+        position: relative;
+        width: 187px;
+        height: 60px;
+        border: 5px solid dodgerblue;
+        left: 576px;
+        top: -757px;
+    }
+
+    #whoAmI>h4{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        top: -24px;
+        left: 17px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    .aboutMe>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -537px;
+    }
+
+    .aboutMe>p{
+        color: white;
+        position: relative;
+        top: -713px;
+        left: 439px;
+        font-size: 21px;
+        font-family: Papyrus,fantasy;
+    }
+
+
+    #aboutPhoto > img {
+        width: 236px;
+        height: 236px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 13px solid #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transform: rotate(-2deg) translateX(-108px);
+        top: -454px;
+        position: relative;
+        left: 212px;
+    }
+
+
+
+
+    .aboutMe>div>button{
+        position: relative;
+        background-color: #40A2D8;
+        top: -646px;
+        left: 626px;
+        color: black;
+        font-size: 20px;
+        border: 2px solid black;
+
+        width: 218px;
+        height: 50px;
+    }
+
+    #downloadImage>img{
+        left: 624px;
+        top: -635px;
+        position: relative;
+        width: 34px;
+        height: 33px;
+        margin-right: 10px;
+    }
+
     /*body{
         background-color: black;
     }
@@ -332,4 +407,80 @@ header > nav a {
         margin-right: 10px;
     }
 }*/
+@media all and  (min-width:1440px){
 
+    #whoAmI{
+        position: relative;
+        width: 187px;
+        height: 60px;
+        border: 5px solid dodgerblue;
+        left: 814px;
+        top: -789px;
+    }
+
+    #whoAmI>h4{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        top: -24px;
+        left: 17px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    .aboutMe>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -537px;
+    }
+
+    .aboutMe>p{
+        color: white;
+        position: relative;
+        top: -713px;
+        left: 653px;
+        font-size: 27px;
+        font-family: Papyrus,fantasy;
+    }
+
+
+    #aboutPhoto > img {
+        width: 288px;
+        height: 288px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 13px solid #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transform: rotate(-2deg) translateX(-108px);
+        top: -454px;
+        position: relative;
+        left: 212px;
+    }
+
+
+
+
+    .aboutMe>div>button{
+        position: relative;
+        background-color: #40A2D8;
+        top: -646px;
+        left: 852px;
+        color: black;
+        font-size: 20px;
+        border: 2px solid black;
+
+        width: 218px;
+        height: 50px;
+    }
+
+    #downloadImage>img{
+        left: 847px;
+        top: -635px;
+        position: relative;
+        width: 34px;
+        height: 33px;
+        margin-right: 10px;
+    }
+
+}
