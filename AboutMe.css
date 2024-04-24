@@ -225,6 +225,29 @@ header > nav a {
     }
 
 }*/
+@media all and (min-width: 376px ) and (max-width: 425px){
+
+    .aboutMe>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        top: 35px;
+    }
+
+    #aboutPhoto > img {
+        position: relative;
+        width: 194px ;
+        height: 194px ;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 13px solid #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transform: rotate(-2deg) translateX(-108px);
+        top: 9px;
+        left: 190px;
+    }
+}
 @media all and (min-width: 461px ) and (max-width: 768px){
     #whoAmI{
         position: relative;
