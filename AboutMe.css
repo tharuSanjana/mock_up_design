@@ -232,7 +232,7 @@ header > nav a {
         text-align: center;
         font-size: 30px;
         position: relative;
-        top: 35px;
+        top: -43px;
     }
 
     #aboutPhoto > img {
@@ -245,8 +245,37 @@ header > nav a {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         transform: rotate(-2deg) translateX(-108px);
         top: 9px;
-        left: 190px;
+        left: 209px;
     }
+
+    .aboutMe>p{
+        color: white;
+        position: relative;
+        top: 47px;
+        left: 28px;
+        font-size: 14px;
+        font-family: Papyrus,fantasy;
+    }
+
+    #whoAmI{
+        position: relative;
+        width: 142px;
+        height: 43px;
+        border: 5px solid dodgerblue;
+        left: 124px;
+        top: 26px;
+    }
+
+    #whoAmI>h4{
+        position: absolute;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        top: -23px;
+        left: 14px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
     #whoAmI{
