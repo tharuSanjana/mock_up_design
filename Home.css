@@ -349,7 +349,213 @@ section>div>h5{
     }
 
 }*/
-@media all and (min-width: 376px ) and (max-width: 425px){
+
+@media all and (max-width: 320px ){
+    header > #menu {
+
+        position: absolute;
+        top: 34px;
+        left: 76%;
+        transform: translateX(-50%);
+    }
+
+    .menu-btn {
+        display: block;
+        width: 40px;
+        height: 33px;
+        position: absolute;
+        top: 50%;
+        left: 26px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .menu-btn span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 6px;
+    }
+
+    main>div{
+        top: 30px;
+        left: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 19px;
+    }
+
+    main>section>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 57px;
+        left: 65px;
+        border-radius: 30px;
+        width:184px ;
+        height: 313px;
+    }
+
+    #socialImages>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: -424px;
+        left: 99px;
+    }
+
+    main>section>div>h1{
+        color: #40A2D8;
+        position: relative;
+        top: 104px;
+        bottom: 0;
+        left: 79px;
+        font-size: 66px;
+        margin: auto;
+    }
+
+    #im{
+        color: white;
+        position: relative;
+        top: 45px;
+        bottom: 0;
+        left: 120px;
+        font-size: 51px;
+    }
+
+    #name{
+        color: white;
+        position: relative;
+        top: 2px;
+        bottom: 0;
+        left: 36px;
+        font-size: 35px;
+    }
+
+    section>div>h5{
+        color: cornflowerblue;
+        position: relative;
+        top: -43px;
+        bottom: 0;
+        left: 30px;
+        font-size: 33px;
+    }
+
+    #contactButton>button{
+        position: relative;
+        left: 97px;
+        top: -58px;
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        border: 5px solid white;
+    }
+}
+@media all and (min-width: 321px ) and (max-width: 376px){
+
+    header > #menu {
+
+        position: absolute;
+        top: 34px;
+        left: 76%;
+        transform: translateX(-50%);
+    }
+
+    .menu-btn {
+        display: block;
+        width: 40px;
+        height: 33px;
+        position: absolute;
+        top: 50%;
+        left: 36px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .menu-btn span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 6px;
+    }
+
+    main>div{
+        top: 30px;
+        left: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 19px;
+    }
+
+    main>section>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 57px;
+        left: 95px;
+        border-radius: 30px;
+        width:184px ;
+        height: 313px;
+    }
+
+    #socialImages>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: -424px;
+        left: 120px;
+    }
+
+    main>section>div>h1{
+        color: #40A2D8;
+        position: relative;
+        top: 104px;
+        bottom: 0;
+        left: 105px;
+        font-size: 66px;
+        margin: auto;
+    }
+
+    #im{
+        color: white;
+        position: relative;
+        top: 45px;
+        bottom: 0;
+        left: 146px;
+        font-size: 51px;
+    }
+
+    #name{
+        color: white;
+        position: relative;
+        top: 2px;
+        bottom: 0;
+        left: 57px;
+        font-size: 35px;
+    }
+
+    section>div>h5{
+        color: cornflowerblue;
+        position: relative;
+        top: -43px;
+        bottom: 0;
+        left: 58px;
+        font-size: 33px;
+    }
+
+    #contactButton>button{
+        position: relative;
+        left: 123px;
+        top: -58px;
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        border: 5px solid white;
+    }
+}
+@media all and (min-width: 377px ) and (max-width: 425px){
 
     header > #menu {
 
