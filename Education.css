@@ -3,12 +3,12 @@
     text-align: center;
     font-size: 40px;
     position: relative;
-    top: -8px;
+    top: -456px;
 }
 
 .rec{
     position: relative;
-    top: 30px;
+    top: -399px;
     left: 50px;
     background-color: #40A2D8;
     width: 93vw;
@@ -34,7 +34,7 @@
 
 #kcc>img{
     position: relative;
-    top: 108px;
+    top: -275px;
     left: 102px;
     width: 174px;
     height: 168px;
@@ -43,26 +43,30 @@
 #kcc>p{
     color: white;
     position: relative;
-    top: -95px;
-    left: 538px;
+    top: -496px;
+    left: 535px;
     font-size: 21px;
 }
 
 #kcc>h2{
+
     color: white;
     position: relative;
-    top: -100px;
+    top: -503px;
     left: 535px;
     font-size: 21px;
 }
 
 #kcc>h4{
-    color: white;
+    font-family: "Papyrus", Papyrus, fantasy, serif;
+    font-size: 24px;
+    color: deepskyblue;
     position: relative;
-    top: -93px;
+    top: -499px;
     left: 600px;
 }
 
+/*
 @media all and (max-width: 768px) {
 
     .rec{
@@ -103,8 +107,8 @@
         color: white;
         position: relative;
         top: -95px;
-        /*left: 200px !important;*/
-        left: 50%; /* Start from the middle of the container */
+        !*left: 200px !important;*!
+        left: 50%; !* Start from the middle of the container *!
         transform: translateX(-18%);
         font-size: 21px;
     }
@@ -113,7 +117,7 @@
         color: white;
         position: relative;
         top: -100px;
-        left: 50%; /* Start from the middle of the container */
+        left: 50%; !* Start from the middle of the container *!
         transform: translateX(-18%);
         font-size: 21px;
     }
@@ -123,7 +127,7 @@
         color: white;
         position: relative;
         top: -93px;
-        left: 50%; /* Start from the middle of the container */
+        left: 50%; !* Start from the middle of the container *!
         transform: translateX(-18%);
     }
 }
@@ -169,32 +173,24 @@
         left: 429px !important;
     }
 }
-
-@media all and (max-width: 1440px) {
-    .rec{
-        position: relative;
-        top: 30px;
-        left: 50px;
-        background-color: #40A2D8;
-        width: 93vw;
-        height: 52vh;
-    }
+*/
+@media all and (min-width: 377px ) and (max-width: 425px){
 
     .education>div>h3{
         color: #0B60B0;
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: -8px;
+        top: 106px;
     }
 
     .rec{
         position: relative;
-        top: 30px;
-        left: 50px;
+        top: 100px;
+        left: 29px;
         background-color: #40A2D8;
         width: 93vw;
-        height: 54vh;
+        height: 52vh;
     }
 
     .rec>img{
@@ -209,14 +205,154 @@
     .desc{
         position: absolute;
         top: 11px;
-        left: 292px;
+        left: 253px;
         font-size: 20px;
         line-height: 106px;
     }
 
     #kcc>img{
         position: relative;
-        top: 108px;
+        top: 209px;
+        left: 57px;
+        width: 174px;
+        height: 168px;
+    }
+
+    #kcc>p{
+        color: white;
+        position: relative;
+        top: -22px;
+        left: 245px;
+        font-size: 21px;
+    }
+
+    #kcc>h2{
+
+        color: white;
+        position: relative;
+        top: -32px;
+        left: 246px;
+        font-size: 21px;
+    }
+
+    #kcc>h4{
+        font-family: "Papyrus", Papyrus, fantasy, serif;
+        font-size: 24px;
+        color: deepskyblue;
+        position: relative;
+        top: 3px;
+        left: 281px;
+    }
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+    .education>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -456px;
+    }
+
+    .rec{
+        position: relative;
+        top: -399px;
+        left: 29px;
+        background-color: #40A2D8;
+        width: 93vw;
+        height: 52vh;
+    }
+
+    .rec>img{
+        position: relative;
+        top: 57px;
+        left: 50px;
+        width: 174px;
+        height: 168px
+
+    }
+
+    .desc{
+        position: absolute;
+        top: 11px;
+        left: 253px;
+        font-size: 20px;
+        line-height: 106px;
+    }
+
+    #kcc>img{
+        position: relative;
+        top: -275px;
+        left: 57px;
+        width: 174px;
+        height: 168px;
+    }
+
+    #kcc>p{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 245px;
+        font-size: 21px;
+    }
+
+    #kcc>h2{
+
+        color: white;
+        position: relative;
+        top: -503px;
+        left: 246px;
+        font-size: 21px;
+    }
+
+    #kcc>h4{
+        font-family: "Papyrus", Papyrus, fantasy, serif;
+        font-size: 24px;
+        color: deepskyblue;
+        position: relative;
+        top: -499px;
+        left: 281px;
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+
+    .education>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -456px;
+    }
+
+    .rec{
+        position: relative;
+        top: -399px;
+        left: 50px;
+        background-color: #40A2D8;
+        width: 93vw;
+        height: 52vh;
+    }
+
+    .rec>img{
+        position: relative;
+        top: 57px;
+        left: 50px;
+        width: 174px;
+        height: 168px
+
+    }
+
+    .desc{
+        position: absolute;
+        top: 11px;
+        left: 284px;
+        font-size: 20px;
+        line-height: 106px;
+    }
+
+    #kcc>img{
+        position: relative;
+        top: -275px;
         left: 102px;
         width: 174px;
         height: 168px;
@@ -225,23 +361,166 @@
     #kcc>p{
         color: white;
         position: relative;
-        top: -95px;
-        left: 538px;
+        top: -496px;
+        left: 340px;
         font-size: 21px;
     }
 
     #kcc>h2{
+
         color: white;
         position: relative;
-        top: -100px;
+        top: -503px;
+        left: 339px;
+        font-size: 21px;
+    }
+
+    #kcc>h4{
+        font-family: "Papyrus", Papyrus, fantasy, serif;
+        font-size: 24px;
+        color: deepskyblue;
+        position: relative;
+        top: -499px;
+        left: 357px;
+    }
+}
+@media all and (min-width: 1025px ) and (max-width: 1440px) {
+
+    .education>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -456px;
+    }
+
+    .rec{
+        position: relative;
+        top: -399px;
+        left: 50px;
+        background-color: #40A2D8;
+        width: 93vw;
+        height: 52vh;
+    }
+
+    .rec>img{
+        position: relative;
+        top: 57px;
+        left: 50px;
+        width: 174px;
+        height: 168px
+
+    }
+
+    .desc{
+        position: absolute;
+        top: 11px;
+        left: 284px;
+        font-size: 20px;
+        line-height: 106px;
+    }
+
+    #kcc>img{
+        position: relative;
+        top: -275px;
+        left: 102px;
+        width: 174px;
+        height: 168px;
+    }
+
+    #kcc>p{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 340px;
+        font-size: 21px;
+    }
+
+    #kcc>h2{
+
+        color: white;
+        position: relative;
+        top: -503px;
+        left: 339px;
+        font-size: 21px;
+    }
+
+    #kcc>h4{
+        font-family: "Papyrus", Papyrus, fantasy, serif;
+        font-size: 24px;
+        color: deepskyblue;
+        position: relative;
+        top: -499px;
+        left: 357px;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .education>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -456px;
+    }
+
+    .rec{
+        position: relative;
+        top: -399px;
+        left: 50px;
+        background-color: #40A2D8;
+        width: 93vw;
+        height: 52vh;
+    }
+
+    .rec>img{
+        position: relative;
+        top: 57px;
+        left: 50px;
+        width: 174px;
+        height: 168px
+
+    }
+
+    .desc{
+        position: absolute;
+        top: 11px;
+        left: 483px;
+        font-size: 20px;
+        line-height: 106px;
+    }
+
+    #kcc>img{
+        position: relative;
+        top: -275px;
+        left: 102px;
+        width: 174px;
+        height: 168px;
+    }
+
+    #kcc>p{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 535px;
+        font-size: 21px;
+    }
+
+    #kcc>h2{
+
+        color: white;
+        position: relative;
+        top: -503px;
         left: 535px;
         font-size: 21px;
     }
 
     #kcc>h4{
-        color: white;
+        font-family: "Papyrus", Papyrus, fantasy, serif;
+        font-size: 24px;
+        color: deepskyblue;
         position: relative;
-        top: -93px;
+        top: -499px;
         left: 600px;
     }
 }
