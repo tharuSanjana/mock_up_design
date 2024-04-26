@@ -635,9 +635,9 @@ header > nav a {
     }
 
 }
-@media all and (min-width: 1025px ) and (max-width: 1440px){
+@media all and (min-width: 1025px ) and (max-width: 1440px) {
 
-    #whoAmI{
+    #whoAmI {
         position: relative;
         width: 187px;
         height: 60px;
@@ -646,7 +646,7 @@ header > nav a {
         top: -757px;
     }
 
-    #whoAmI>h4{
+    #whoAmI > h4 {
         position: absolute;
         color: white;
         font-size: 30px;
@@ -655,7 +655,8 @@ header > nav a {
         left: 17px;
         font-family: "Lucida Console", "Courier New", monospace;
     }
-    .aboutMe>div>h3{
+
+    .aboutMe > div > h3 {
         color: #0B60B0;
         text-align: center;
         font-size: 40px;
@@ -663,13 +664,13 @@ header > nav a {
         top: -537px;
     }
 
-    .aboutMe>p{
+    .aboutMe > p {
         color: white;
         position: relative;
         top: -713px;
         left: 439px;
         font-size: 21px;
-        font-family: Papyrus,fantasy;
+        font-family: Papyrus, fantasy;
     }
 
 
@@ -687,9 +688,7 @@ header > nav a {
     }
 
 
-
-
-    .aboutMe>div>button{
+    .aboutMe > div > button {
         position: relative;
         background-color: #40A2D8;
         top: -646px;
@@ -702,7 +701,7 @@ header > nav a {
         height: 50px;
     }
 
-    #downloadImage>img{
+    #downloadImage > img {
         left: 624px;
         top: -635px;
         position: relative;
@@ -711,13 +710,13 @@ header > nav a {
         margin-right: 10px;
     }
 
-    /*body{
-        background-color: black;
-    }
+}
+@media all and  (min-width:1440px) {
+
     header{
         top: 0;
         position: fixed;
-        width: 99vw;
+        width: 100vw;
         height: 7vh;
         background-color: #0B60B0;
         border-radius: 20px;
@@ -726,101 +725,7 @@ header > nav a {
 
     }
 
-    header>nav{
-        font-size: 20px;
-        position: absolute;
-        top: 13px;
-        left: 548px;
-
-
-    }
-
-    header > nav a {
-        color: white;
-        text-decoration: none;
-        margin-right: 10px;
-
-    }
-
-    header > nav a:hover {
-        color: #40A2D8;
-    }*/
-}
-/*@media all and (min-width: 1440px) {
-
-   !* header {
-        top: 0;
-        position: fixed;
-        width: 100vw;
-        height: 7vh;
-        background-color: #0B60B0;
-        border-radius: 20px;
-        left: 0;
-
-    }
-
-
-    header>nav{
-
-        font-size: 20px;
-        position: absolute;
-        top: 13px;
-        !*left: 949px;*!
-        left: 63%;
-        transform: translateX(1%);
-
-    }*!
-    .aboutMe>div>h3{
-        color: #0B60B0;
-        text-align: center;
-        font-size: 40px;
-        position: relative;
-        top: -8px;
-    }
-
-    .aboutMe>p{
-        color: white;
-        position: relative;
-        top: -360px;
-        left: 490px;
-        font-size: 23px;
-    }
-
-    #aboutPhoto>img{
-        position: relative;
-        top: 35px;
-        left: 40px;
-        width: 426px;
-        height: 383px;
-    }
-
-    .aboutMe>div>button{
-
-        position: relative;
-        background-color: #40A2D8;
-        top: -144px;
-        left: 852px;
-        color: black;
-        font-size: 20px;
-        border: 2px solid black;
-
-        width: 150px;
-        height: 50px;
-
-    }
-
-    #downloadImage>img{
-        left: 847px;
-        top: -138px;
-        position: relative;
-        width: 34px;
-        height: 33px;
-        margin-right: 10px;
-    }
-}*/
-@media all and  (min-width:1440px){
-
-    #whoAmI{
+    #whoAmI {
         position: relative;
         width: 187px;
         height: 60px;
@@ -829,7 +734,7 @@ header > nav a {
         top: -789px;
     }
 
-    #whoAmI>h4{
+    #whoAmI > h4 {
         position: absolute;
         color: white;
         font-size: 30px;
@@ -838,7 +743,8 @@ header > nav a {
         left: 17px;
         font-family: "Lucida Console", "Courier New", monospace;
     }
-    .aboutMe>div>h3{
+
+    .aboutMe > div > h3 {
         color: #0B60B0;
         text-align: center;
         font-size: 40px;
@@ -846,13 +752,13 @@ header > nav a {
         top: -537px;
     }
 
-    .aboutMe>p{
+    .aboutMe > p {
         color: white;
         position: relative;
         top: -713px;
         left: 653px;
         font-size: 27px;
-        font-family: Papyrus,fantasy;
+        font-family: Papyrus, fantasy;
     }
 
 
@@ -870,9 +776,7 @@ header > nav a {
     }
 
 
-
-
-    .aboutMe>div>button{
+    .aboutMe > div > button {
         position: relative;
         background-color: #40A2D8;
         top: -646px;
@@ -885,7 +789,7 @@ header > nav a {
         height: 50px;
     }
 
-    #downloadImage>img{
+    #downloadImage > img {
         left: 847px;
         top: -635px;
         position: relative;
