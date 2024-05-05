@@ -71,7 +71,25 @@
     transform: translate(-5%, -199%);
 }
 
-.githubSearch{
+.githubSearch-yf{
+    position: relative;
+    left: 24px;
+    top: 389px;
+    border-radius: 100%;
+    width: 34px;
+    aspect-ratio: 1/1;
+    margin: 0 95px;
+}
+.githubSearch-ca{
+    position: relative;
+    left: 24px;
+    top: 389px;
+    border-radius: 100%;
+    width: 34px;
+    aspect-ratio: 1/1;
+    margin: 0 95px;
+}
+.githubSearch-li{
     position: relative;
     left: 24px;
     top: 389px;
@@ -81,6 +99,15 @@
     margin: 0 95px;
 }
 
+.githubSearch-po{
+    position: relative;
+    left: 24px;
+    top: 389px;
+    border-radius: 100%;
+    width: 34px;
+    aspect-ratio: 1/1;
+    margin: 0 95px;
+}
 .assignments{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -146,16 +173,17 @@ img.assGit {
     width: 283px;
     height: 441px;
     border-radius: 35px;
+    border: 2px solid white;
     background-color: #007bff;
-    margin-right: 40px; /* Adjust margin-right to increase gap between divs */
+    margin-right: 40px;
     margin-bottom: 113px;
 }
 
 .second-row {
-    grid-column: span 2; /* Span two columns */
+    grid-column: span 2;
 }
 
-#projectRec>.about-project>#project-ss{
+#projectRec>.about-project>#yummyFood-ss{
     width: 117px;
     aspect-ratio: 1/1;
     position: absolute;
@@ -163,7 +191,15 @@ img.assGit {
     left: 76px;
 }
 
-#projectRec>.about-project>label{
+#projectRec>.about-project>#chat-ss{
+    width: 117px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 40px;
+    left: 76px;
+}
+
+#projectRec>.about-project>#chat-label{
 
     font-family: Ravie;
     position: absolute;
@@ -172,12 +208,81 @@ img.assGit {
     font-size: 29px;
 }
 
-#projectRec>.about-project>p{
+#projectRec>.about-project>#chat-p{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 257px;
+    left: 32px;
+
+}
+#projectRec>.about-project>#yummyFood-label{
+
+    font-family: Ravie;
+    position: absolute;
+    top: 186px;
+    left: 16px;
+    font-size: 29px;
+}
+
+#projectRec>.about-project>#yummyFood-p{
     font-size: 22px;
     color: white;
     position: absolute;
     top: 227px;
     left: 32px;
+
+}
+
+#projectRec>.about-project>#library-ss{
+    width: 117px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 40px;
+    left: 76px;
+}
+
+#projectRec>.about-project>#lidrary-label{
+
+    font-family: Ravie;
+    position: absolute;
+    top: 186px;
+    left: 16px;
+    font-size: 29px;
+}
+
+#projectRec>.about-project>#library-p{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 294px;
+    left: 32px;
+
+}
+
+#projectRec>.second-row>#pos-ss{
+    width: 117px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 40px;
+    left: 76px;
+}
+
+#projectRec>.second-row>#pos-label{
+
+    font-family: Ravie;
+    position: absolute;
+    top: 186px;
+    left: 16px;
+    font-size: 29px;
+}
+
+#projectRec>.second-row>#pos-p{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 255px;
+    left: 72px;
 
 }
 /*
