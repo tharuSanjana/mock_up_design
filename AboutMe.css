@@ -324,7 +324,7 @@ header > nav a {
         color: white;
         position: relative;
         top: 36px;
-        left: 37px;
+        left: 29px;
         font-size: 12px;
         font-family: Papyrus,fantasy;
     }
@@ -531,7 +531,7 @@ header > nav a {
     header{
         top: 0;
         position: fixed;
-        width: 99vw;
+        width: 100vw;
         height: 7vh;
         background-color: #0B60B0;
         border-radius: 20px;

@@ -3,7 +3,7 @@
     text-align: center;
     font-size: 40px;
     position: relative;
-    top: 20px;
+    top: -320px;
 }
 
 .proAss>#pro>img{
@@ -161,7 +161,7 @@ img.assGit {
     grid-template-columns: repeat(3, 1fr); /* Three columns */
    margin: 21px auto;
     position: relative;
-    top: 81px;
+    top: -241px;
     left: 113px;
     overflow-x: auto;
     overflow-y: auto;
@@ -285,8 +285,15 @@ img.assGit {
     left: 72px;
 
 }
-/*
-@media all and (max-width: 768px) {
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+    .proAss>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -320px;
+    }
 
     .proAss>#pro>img{
         filter: brightness(51%);
@@ -294,105 +301,10 @@ img.assGit {
         top: 50px;
         width: 200px;
         height: 200px;
-        left: 180px !important;
+        left: 517px;
         margin: 10px;
         border: 7px solid white;
     }
-
-    .githubSearch>img{
-        position: relative;
-        left: 211px !important;
-        border-radius: 100%;
-        width: 20px;
-        aspect-ratio: 1/1;
-        margin: 0 95px;
-    }
-
-    .yummy-description {
-        position: absolute;
-        bottom: -3057px !important;
-        left: 417px !important;
-        width: 14%;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 13px 0;
-        font-size: 15px;
-        transform: translate(-153%, -96%) ;
-
-    }
-
-    .chat-description {
-        position: absolute;
-        bottom: -3107px !important;
-        left: 620px !important;
-        width: 12%;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 13px 0;
-        font-size: 15px;
-        transform: translate(-5%, -105%);
-    }
-
-
-}
-@media all and (max-width: 1024px) {
-
-    .proAss>#pro>img{
-        filter: brightness(51%);
-        position: relative;
-        top: 50px;
-        width: 200px;
-        height: 200px;
-        left: 309px;
-        margin: 10px;
-        border: 7px solid white;
-    }
-
-    .yummy-description {
-        position: absolute;
-        bottom: -3122px;
-        left: 556px ;
-        width: 14%;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 13px 0;
-        font-size: 15px;
-        transform: translate(-153%, -96%) !important;
-    }
-
-    .githubSearch>img{
-        position: relative;
-        left: 333px;
-        border-radius: 100%;
-        width: 20px;
-        aspect-ratio: 1/1;
-        margin: 0 95px;
-    }
-
-    .chat-description {
-        position: absolute;
-        bottom: -3122px;
-        left: 620px ;
-        width: 12%;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 13px 0;
-        font-size: 15px;
-        transform: translate(-143%, -212%) !important;
-    }
-
-
-
-}
-@media all and (max-width: 1440px) {
 
     .arrowKeys {
         display: flex;
@@ -404,7 +316,7 @@ img.assGit {
     .arrow {
         position: relative;
         top: -94px;
-        left: 36px;
+        left: 5px;
         width: 0;
         height: 0;
         border-style: solid;
@@ -422,9 +334,8 @@ img.assGit {
 
     .yummy-description {
         position: absolute;
-
         bottom: -3122px;
-        left: 552px;
+        left: 566px ;
         width: 12%;
         text-align: center;
         color: white;
@@ -438,7 +349,7 @@ img.assGit {
     .chat-description {
         position: absolute;
         bottom: -3122px;
-        left: 788px;
+        left: 795px ;
         width: 12%;
         text-align: center;
         color: white;
@@ -448,6 +359,1088 @@ img.assGit {
         font-size: 15px;
         transform: translate(-5%, -199%);
     }
-}
-*/
 
+    .githubSearch-yf{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-ca{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-li{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+
+    .githubSearch-po{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .assignments{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+
+    .assignments>div{
+        border-radius: 10%;
+        filter: brightness(68%);
+        position: relative;
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+        margin: 15px auto;
+
+        background-image: url("assets/images/assignments.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .assignmentNumber>label{
+        color:#0B60B0;
+        font-size: 28px;
+        position: absolute;
+        top: 76px;
+        left: 20px;
+
+    }
+
+    #projectRec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 21px auto;
+        position: relative;
+        top: -241px;
+        left: 56px;
+        overflow-x: auto;
+        overflow-y: auto;
+
+    }
+
+    #projectRec > div {
+        filter: brightness(96%);
+        width: 283px;
+        height: 441px;
+        border-radius: 35px;
+        border: 2px solid white;
+        background-color: #007bff;
+        margin-right: 40px;
+        margin-bottom: 113px;
+    }
+
+    .second-row {
+        grid-column: span 1;
+    }
+
+    .assignmentNumber>img {
+        width: 50px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+
+    img.assGit {
+        filter: brightness(300%);
+        border-radius: 50%;
+    }
+
+
+
+    #projectRec>.about-project>#yummyFood-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#chat-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 257px;
+        left: 32px;
+
+    }
+    #projectRec>.about-project>#yummyFood-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#yummyFood-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 227px;
+        left: 17px;
+
+    }
+
+    #projectRec>.about-project>#library-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#lidrary-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#library-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 294px;
+        left: 15px;
+
+    }
+
+    #projectRec>.second-row>#pos-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.second-row>#pos-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.second-row>#pos-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 255px;
+        left: 55px;
+
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+
+    .proAss>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -320px;
+    }
+
+    .proAss>#pro>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 50px;
+        width: 200px;
+        height: 200px;
+        left: 517px;
+        margin: 10px;
+        border: 7px solid white;
+    }
+
+    .arrowKeys {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 527px;
+    }
+
+    .arrow {
+        position: relative;
+        top: -94px;
+        left: 5px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .left {
+        border-width: 20px 20px 20px 0;
+        border-color: transparent #007bff transparent transparent;
+    }
+
+    .right {
+        border-width: 20px 0 20px 20px;
+        border-color: transparent transparent transparent #007bff;
+    }
+
+    .yummy-description {
+        position: absolute;
+        bottom: -3122px;
+        left: 566px ;
+        width: 12%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 13px 0;
+        font-size: 15px;
+        transform: translate(-3%, -126%);
+    }
+
+    .chat-description {
+        position: absolute;
+        bottom: -3122px;
+        left: 795px ;
+        width: 12%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 13px 0;
+        font-size: 15px;
+        transform: translate(-5%, -199%);
+    }
+
+    .githubSearch-yf{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-ca{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-li{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+
+    .githubSearch-po{
+        position: relative;
+        left: 18px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .assignments{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+
+    .assignments>div{
+        border-radius: 10%;
+        filter: brightness(68%);
+        position: relative;
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+        margin: 15px auto;
+
+        background-image: url("assets/images/assignments.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .assignmentNumber>label{
+        color:#0B60B0;
+        font-size: 28px;
+        position: absolute;
+        top: 76px;
+        left: 20px;
+
+    }
+
+
+
+    .assignmentNumber>img {
+        width: 50px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+
+    img.assGit {
+        filter: brightness(300%);
+        border-radius: 50%;
+    }
+
+    #projectRec {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 21px auto;
+        position: relative;
+        top: -241px;
+        left: 41px;
+        overflow-x: auto;
+        overflow-y: auto;
+
+    }
+
+    #projectRec > div {
+        filter: brightness(96%);
+        width: 264px;
+        height: 441px;
+        border-radius: 35px;
+        border: 2px solid white;
+        background-color: #007bff;
+        margin-right: 40px;
+        margin-bottom: 113px;
+    }
+
+    .second-row {
+        grid-column: span 2;
+    }
+
+    #projectRec>.about-project>#yummyFood-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#chat-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 257px;
+        left: 32px;
+
+    }
+    #projectRec>.about-project>#yummyFood-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#yummyFood-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 227px;
+        left: 17px;
+
+    }
+
+    #projectRec>.about-project>#library-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#lidrary-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#library-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 294px;
+        left: 15px;
+
+    }
+
+    #projectRec>.second-row>#pos-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.second-row>#pos-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.second-row>#pos-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 255px;
+        left: 55px;
+
+    }
+}
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    .proAss>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -320px;
+    }
+
+    .proAss>#pro>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 50px;
+        width: 200px;
+        height: 200px;
+        left: 517px;
+        margin: 10px;
+        border: 7px solid white;
+    }
+
+    .arrowKeys {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 527px;
+    }
+
+    .arrow {
+        position: relative;
+        top: -94px;
+        left: 5px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .left {
+        border-width: 20px 20px 20px 0;
+        border-color: transparent #007bff transparent transparent;
+    }
+
+    .right {
+        border-width: 20px 0 20px 20px;
+        border-color: transparent transparent transparent #007bff;
+    }
+
+    .yummy-description {
+        position: absolute;
+        bottom: -3122px;
+        left: 566px ;
+        width: 12%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 13px 0;
+        font-size: 15px;
+        transform: translate(-3%, -126%);
+    }
+
+    .chat-description {
+        position: absolute;
+        bottom: -3122px;
+        left: 795px ;
+        width: 12%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 13px 0;
+        font-size: 15px;
+        transform: translate(-5%, -199%);
+    }
+
+    .githubSearch-yf{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-ca{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-li{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+
+    .githubSearch-po{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .assignments{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+
+    .assignments>div{
+        border-radius: 10%;
+        filter: brightness(68%);
+        position: relative;
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+        margin: 15px auto;
+
+        background-image: url("assets/images/assignments.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .assignmentNumber>label{
+        color:#0B60B0;
+        font-size: 28px;
+        position: absolute;
+        top: 76px;
+        left: 20px;
+
+    }
+
+
+
+    .assignmentNumber>img {
+        width: 50px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+
+    img.assGit {
+        filter: brightness(300%);
+        border-radius: 50%;
+    }
+
+    #projectRec {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 21px auto;
+        position: relative;
+        top: -241px;
+        left: 77px;
+        overflow-x: auto;
+        overflow-y: auto;
+
+    }
+
+    #projectRec > div {
+        filter: brightness(96%);
+        width: 283px;
+        height: 441px;
+        border-radius: 35px;
+        border: 2px solid white;
+        background-color: #007bff;
+        margin-right: 40px;
+        margin-bottom: 113px;
+    }
+
+    .second-row {
+        grid-column: span 2;
+    }
+
+    #projectRec>.about-project>#yummyFood-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#chat-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 257px;
+        left: 32px;
+
+    }
+    #projectRec>.about-project>#yummyFood-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#yummyFood-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 227px;
+        left: 32px;
+
+    }
+
+    #projectRec>.about-project>#library-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#lidrary-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#library-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 294px;
+        left: 32px;
+
+    }
+
+    #projectRec>.second-row>#pos-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.second-row>#pos-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.second-row>#pos-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 255px;
+        left: 72px;
+
+    }
+}
+@media all and  (min-width:1440px){
+
+    .proAss>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -320px;
+    }
+
+    .proAss>#pro>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 50px;
+        width: 200px;
+        height: 200px;
+        left: 517px;
+        margin: 10px;
+        border: 7px solid white;
+    }
+
+    .arrowKeys {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 527px;
+    }
+
+    .arrow {
+        position: relative;
+        top: -94px;
+        left: 5px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .left {
+        border-width: 20px 20px 20px 0;
+        border-color: transparent #007bff transparent transparent;
+    }
+
+    .right {
+        border-width: 20px 0 20px 20px;
+        border-color: transparent transparent transparent #007bff;
+    }
+
+    .yummy-description {
+        position: absolute;
+        bottom: -3122px;
+        left: 566px ;
+        width: 12%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 13px 0;
+        font-size: 15px;
+        transform: translate(-3%, -126%);
+    }
+
+    .chat-description {
+        position: absolute;
+        bottom: -3122px;
+        left: 795px ;
+        width: 12%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 13px 0;
+        font-size: 15px;
+        transform: translate(-5%, -199%);
+    }
+
+    .githubSearch-yf{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-ca{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .githubSearch-li{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+
+    .githubSearch-po{
+        position: relative;
+        left: 24px;
+        top: 389px;
+        border-radius: 100%;
+        width: 34px;
+        aspect-ratio: 1/1;
+        margin: 0 95px;
+    }
+    .assignments{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+
+    .assignments>div{
+        border-radius: 10%;
+        filter: brightness(68%);
+        position: relative;
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+        margin: 15px auto;
+
+        background-image: url("assets/images/assignments.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .assignmentNumber>label{
+        color:#0B60B0;
+        font-size: 28px;
+        position: absolute;
+        top: 76px;
+        left: 20px;
+
+    }
+
+
+
+    .assignmentNumber>img {
+        width: 50px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+
+    img.assGit {
+        filter: brightness(300%);
+        border-radius: 50%;
+    }
+
+    #projectRec {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three columns */
+        margin: 21px auto;
+        position: relative;
+        top: -241px;
+        left: 113px;
+        overflow-x: auto;
+        overflow-y: auto;
+
+    }
+
+    #projectRec > div {
+        filter: brightness(96%);
+        width: 283px;
+        height: 441px;
+        border-radius: 35px;
+        border: 2px solid white;
+        background-color: #007bff;
+        margin-right: 40px;
+        margin-bottom: 113px;
+    }
+
+    .second-row {
+        grid-column: span 2;
+    }
+
+    #projectRec>.about-project>#yummyFood-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#chat-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#chat-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 257px;
+        left: 32px;
+
+    }
+    #projectRec>.about-project>#yummyFood-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#yummyFood-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 227px;
+        left: 32px;
+
+    }
+
+    #projectRec>.about-project>#library-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.about-project>#lidrary-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.about-project>#library-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 294px;
+        left: 32px;
+
+    }
+
+    #projectRec>.second-row>#pos-ss{
+        width: 117px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        left: 76px;
+    }
+
+    #projectRec>.second-row>#pos-label{
+
+        font-family: Ravie;
+        position: absolute;
+        top: 186px;
+        left: 16px;
+        font-size: 29px;
+    }
+
+    #projectRec>.second-row>#pos-p{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 255px;
+        left: 72px;
+
+    }
+}
