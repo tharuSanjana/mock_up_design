@@ -96,21 +96,20 @@
         transform: translateX(0);
     }
 }
-
-/*@media all and (max-width: 768px) {
+@media all and (max-width: 320px ){
     .skill>div>h3{
         color: #0B60B0;
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: 126px;
+        top: 157px;
     }
 
     #blueRec{
         position: relative;
-        width: 450px;
+        width: 341px;
         height: 315px;
-        top: 242px;
+        top: 193px;
         bottom: 0;
         left: 0;
         right: 0;
@@ -122,21 +121,20 @@
 
     .skillImages{
         display: flex;
-
         width: 2500px;
         height: 315px;
-
-        animation-name: anim;
-        animation-duration: 10s;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-
+        animation: anim 10s linear infinite;
+        position: absolute;
+        top: 0;
+        left: -51px;
 
     }
 
     .skillImages>div{
         width: 489px;
         height: 315px;
+
+
     }
 
     .skillImages>div:first-child{
@@ -144,11 +142,7 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    !*.skillImages>div:nth-child(2){
-        background-image: url("assets/images/figma.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-    }*!
+
     .skillImages>div:nth-child(2){
         background-image: url("assets/images/html.png");
         background-position: center;
@@ -163,23 +157,52 @@
         background-image: url("assets/images/hibernate.png");
         background-position: center;
         background-repeat: no-repeat;
+    }
+
+    @keyframes anim {
+        0%, 10% {
+            transform: translateX(0);
+        }
+        12.5%, 22.5% {
+            transform: translateX(-500px);
+        }
+        25%, 35% {
+            transform: translateX(-1000px);
+        }
+        37.5%, 47.5% {
+            transform: translateX(-1500px);
+        }
+        50%, 60% {
+            transform: translateX(-1500px);
+        }
+        62.5%, 72.5% {
+            transform: translateX(-1000px);
+        }
+        75%, 85% {
+            transform: translateX(-500px);
+        }
+        87.5%, 97.5% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
     }
 }
-
-@media all and (max-width: 1024px) {
+@media all and (min-width: 321px ) and (max-width: 376px){
     .skill>div>h3{
         color: #0B60B0;
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: 126px;
+        top: 157px;
     }
 
     #blueRec{
         position: relative;
-        width: 450px;
+        width: 341px;
         height: 315px;
-        top: 242px;
+        top: 193px;
         bottom: 0;
         left: 0;
         right: 0;
@@ -191,21 +214,20 @@
 
     .skillImages{
         display: flex;
-
         width: 2500px;
         height: 315px;
-
-        animation-name: anim;
-        animation-duration: 10s;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-
+        animation: anim 10s linear infinite;
+        position: absolute;
+        top: 0;
+        left: -51px;
 
     }
 
     .skillImages>div{
         width: 489px;
         height: 315px;
+
+
     }
 
     .skillImages>div:first-child{
@@ -213,42 +235,160 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+
     .skillImages>div:nth-child(2){
-        background-image: url("assets/images/java.png");
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .skillImages>div:nth-child(3){
         background-image: url("assets/images/html.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .skillImages>div:nth-child(4){
+    .skillImages>div:nth-child(3){
         background-image: url("assets/images/css.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .skillImages>div:nth-child(5){
+    .skillImages>div:nth-child(4){
         background-image: url("assets/images/hibernate.png");
         background-position: center;
         background-repeat: no-repeat;
+    }
+
+    @keyframes anim {
+        0%, 10% {
+            transform: translateX(0);
+        }
+        12.5%, 22.5% {
+            transform: translateX(-500px);
+        }
+        25%, 35% {
+            transform: translateX(-1000px);
+        }
+        37.5%, 47.5% {
+            transform: translateX(-1500px);
+        }
+        50%, 60% {
+            transform: translateX(-1500px);
+        }
+        62.5%, 72.5% {
+            transform: translateX(-1000px);
+        }
+        75%, 85% {
+            transform: translateX(-500px);
+        }
+        87.5%, 97.5% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
     }
 }
-
-@media all and (max-width: 1440px) {
+@media all and (min-width: 377px ) and (max-width: 425px){
     .skill>div>h3{
         color: #0B60B0;
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: 126px;
+        top: 157px;
+    }
+
+    #blueRec{
+        position: relative;
+        width: 341px;
+        height: 315px;
+        top: 193px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border: 11px solid #007bff;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    .skillImages{
+        display: flex;
+        width: 2500px;
+        height: 315px;
+        animation: anim 10s linear infinite;
+        position: absolute;
+        top: 0;
+        left: -51px;
+
+    }
+
+    .skillImages>div{
+        width: 489px;
+        height: 315px;
+
+
+    }
+
+    .skillImages>div:first-child{
+        background-image: url("assets/images/mysql.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .skillImages>div:nth-child(2){
+        background-image: url("assets/images/html.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(3){
+        background-image: url("assets/images/css.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(4){
+        background-image: url("assets/images/hibernate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes anim {
+        0%, 10% {
+            transform: translateX(0);
+        }
+        12.5%, 22.5% {
+            transform: translateX(-500px);
+        }
+        25%, 35% {
+            transform: translateX(-1000px);
+        }
+        37.5%, 47.5% {
+            transform: translateX(-1500px);
+        }
+        50%, 60% {
+            transform: translateX(-1500px);
+        }
+        62.5%, 72.5% {
+            transform: translateX(-1000px);
+        }
+        75%, 85% {
+            transform: translateX(-500px);
+        }
+        87.5%, 97.5% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+    .skill>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -213px;
     }
 
     #blueRec{
         position: relative;
         width: 450px;
         height: 315px;
-        top: 242px;
+        top: -143px;
         bottom: 0;
         left: 0;
         right: 0;
@@ -263,11 +403,7 @@
 
         width: 2500px;
         height: 315px;
-
-        animation-name: anim;
-        animation-duration: 10s;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
+        animation: anim 10s linear infinite;
 
 
     }
@@ -275,6 +411,8 @@
     .skillImages>div{
         width: 489px;
         height: 315px;
+
+
     }
 
     .skillImages>div:first-child{
@@ -282,23 +420,331 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+
     .skillImages>div:nth-child(2){
-        background-image: url("assets/images/java.png");
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .skillImages>div:nth-child(3){
         background-image: url("assets/images/html.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .skillImages>div:nth-child(4){
+    .skillImages>div:nth-child(3){
         background-image: url("assets/images/css.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .skillImages>div:nth-child(5){
+    .skillImages>div:nth-child(4){
         background-image: url("assets/images/hibernate.png");
         background-position: center;
         background-repeat: no-repeat;
-    }*/
+    }
+
+    @keyframes anim {
+        0%, 10% {
+            transform: translateX(0);
+        }
+        12.5%, 22.5% {
+            transform: translateX(-500px);
+        }
+        25%, 35% {
+            transform: translateX(-1000px);
+        }
+        37.5%, 47.5% {
+            transform: translateX(-1500px);
+        }
+        50%, 60% {
+            transform: translateX(-1500px);
+        }
+        62.5%, 72.5% {
+            transform: translateX(-1000px);
+        }
+        75%, 85% {
+            transform: translateX(-500px);
+        }
+        87.5%, 97.5% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+}
+
+@media all and (min-width: 835px ) and (max-width: 1024px){
+    .skill>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -179px;
+    }
+
+    #blueRec{
+        position: relative;
+        width: 450px;
+        height: 315px;
+        top: -80px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border: 11px solid #007bff;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    .skillImages{
+        display: flex;
+
+        width: 2500px;
+        height: 315px;
+        animation: anim 10s linear infinite;
+
+
+    }
+
+    .skillImages>div{
+        width: 489px;
+        height: 315px;
+
+
+    }
+
+    .skillImages>div:first-child{
+        background-image: url("assets/images/mysql.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .skillImages>div:nth-child(2){
+        background-image: url("assets/images/html.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(3){
+        background-image: url("assets/images/css.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(4){
+        background-image: url("assets/images/hibernate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes anim {
+        0%, 10% {
+            transform: translateX(0);
+        }
+        12.5%, 22.5% {
+            transform: translateX(-500px);
+        }
+        25%, 35% {
+            transform: translateX(-1000px);
+        }
+        37.5%, 47.5% {
+            transform: translateX(-1500px);
+        }
+        50%, 60% {
+            transform: translateX(-1500px);
+        }
+        62.5%, 72.5% {
+            transform: translateX(-1000px);
+        }
+        75%, 85% {
+            transform: translateX(-500px);
+        }
+        87.5%, 97.5% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+}
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    .skill>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -179px;
+    }
+
+    #blueRec{
+        position: relative;
+        width: 450px;
+        height: 315px;
+        top: -80px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border: 11px solid #007bff;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    .skillImages{
+        display: flex;
+
+        width: 2500px;
+        height: 315px;
+        animation: anim 10s linear infinite;
+
+
+    }
+
+    .skillImages>div{
+        width: 489px;
+        height: 315px;
+
+
+    }
+
+    .skillImages>div:first-child{
+        background-image: url("assets/images/mysql.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .skillImages>div:nth-child(2){
+        background-image: url("assets/images/html.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(3){
+        background-image: url("assets/images/css.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(4){
+        background-image: url("assets/images/hibernate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes anim {
+        0%, 10% {
+            transform: translateX(0);
+        }
+        12.5%, 22.5% {
+            transform: translateX(-500px);
+        }
+        25%, 35% {
+            transform: translateX(-1000px);
+        }
+        37.5%, 47.5% {
+            transform: translateX(-1500px);
+        }
+        50%, 60% {
+            transform: translateX(-1500px);
+        }
+        62.5%, 72.5% {
+            transform: translateX(-1000px);
+        }
+        75%, 85% {
+            transform: translateX(-500px);
+        }
+        87.5%, 97.5% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+@media all and  (min-width:1440px){
+    .skill>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -84px;
+    }
+
+    #blueRec{
+        position: relative;
+        width: 450px;
+        height: 315px;
+        top: -5px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border: 11px solid #007bff;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    .skillImages{
+        display: flex;
+
+        width: 2500px;
+        height: 315px;
+        animation: anim 10s linear infinite;
+
+
+    }
+
+    .skillImages>div{
+        width: 489px;
+        height: 315px;
+
+
+    }
+
+    .skillImages>div:first-child{
+        background-image: url("assets/images/mysql.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .skillImages>div:nth-child(2){
+        background-image: url("assets/images/html.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(3){
+        background-image: url("assets/images/css.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skillImages>div:nth-child(4){
+        background-image: url("assets/images/hibernate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    @keyframes anim {
+        0%, 10% {
+            transform: translateX(0);
+        }
+        12.5%, 22.5% {
+            transform: translateX(-500px);
+        }
+        25%, 35% {
+            transform: translateX(-1000px);
+        }
+        37.5%, 47.5% {
+            transform: translateX(-1500px);
+        }
+        50%, 60% {
+            transform: translateX(-1500px);
+        }
+        62.5%, 72.5% {
+            transform: translateX(-1000px);
+        }
+        75%, 85% {
+            transform: translateX(-500px);
+        }
+        87.5%, 97.5% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+}
