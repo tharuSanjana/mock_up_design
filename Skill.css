@@ -36,6 +36,8 @@
 .skillImages>div{
     width: 489px;
     height: 315px;
+   /* background-size: cover;*/
+
 }
 
 .skillImages>div:first-child{
@@ -43,22 +45,22 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.skillImages>div:nth-child(2){
-    background-image: url("assets/images/java.png");
+/*.skillImages>div:nth-child(2){
+    background-image: url("assets/images/figma.jpg");
     background-position: center;
     background-repeat: no-repeat;
-}
-.skillImages>div:nth-child(3){
+}*/
+.skillImages>div:nth-child(2){
     background-image: url("assets/images/html.png");
     background-position: center;
     background-repeat: no-repeat;
 }
-.skillImages>div:nth-child(4){
+.skillImages>div:nth-child(3){
     background-image: url("assets/images/css.png");
     background-position: center;
     background-repeat: no-repeat;
 }
-.skillImages>div:nth-child(5){
+.skillImages>div:nth-child(4){
     background-image: url("assets/images/hibernate.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -79,23 +81,23 @@
         transform: translateX(-1500px);
     }
     50%, 60% {
-        transform: translateX(-2000px);
-    }
-    62.5%, 72.5% {
         transform: translateX(-1500px);
     }
-    75%, 85% {
+    62.5%, 72.5% {
         transform: translateX(-1000px);
     }
-    87.5%, 97.5% {
+    75%, 85% {
         transform: translateX(-500px);
+    }
+    87.5%, 97.5% {
+        transform: translateX(0);
     }
     100% {
         transform: translateX(0);
     }
 }
 
-@media all and (max-width: 768px) {
+/*@media all and (max-width: 768px) {
     .skill>div>h3{
         color: #0B60B0;
         text-align: center;
@@ -142,22 +144,22 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    .skillImages>div:nth-child(2){
-        background-image: url("assets/images/java.png");
+    !*.skillImages>div:nth-child(2){
+        background-image: url("assets/images/figma.jpg");
         background-position: center;
         background-repeat: no-repeat;
-    }
-    .skillImages>div:nth-child(3){
+    }*!
+    .skillImages>div:nth-child(2){
         background-image: url("assets/images/html.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .skillImages>div:nth-child(4){
+    .skillImages>div:nth-child(3){
         background-image: url("assets/images/css.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .skillImages>div:nth-child(5){
+    .skillImages>div:nth-child(4){
         background-image: url("assets/images/hibernate.png");
         background-position: center;
         background-repeat: no-repeat;
@@ -299,5 +301,4 @@
         background-image: url("assets/images/hibernate.png");
         background-position: center;
         background-repeat: no-repeat;
-    }
-}
+    }*/
