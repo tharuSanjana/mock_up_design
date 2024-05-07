@@ -3,7 +3,7 @@
     text-align: center;
     font-size: 40px;
     position: relative;
-    top: 350px;
+    top: 87px;
 }
 
 #p1>img{
@@ -34,20 +34,25 @@
 
 #p4>img{
     position: relative;
-    width: 355px;
-    height: 244px;
-    left: 417px;
-    top: -146px;
+    width: 401px;
+    height: 278px;
+    left: 1011px;
+    top: -424px;
 
 }
 
 #p5>img{
     position: relative;
-    width: 239px;
-    height: 244px;
-    left: 772px;
-    top: -394px;
+    width: 184px;
+    height: 279px;
+    left: 233px;
+    top: -707px;
 
+}
+#images{
+    position: relative;
+    top: -231px;
+    left: -53px;
 }
 @media all and (max-width: 768px) {
     #p1>img{
