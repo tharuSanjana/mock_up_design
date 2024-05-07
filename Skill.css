@@ -107,7 +107,7 @@
 
     #blueRec{
         position: relative;
-        width: 341px;
+        width: 269px;
         height: 315px;
         top: 193px;
         bottom: 0;
@@ -126,7 +126,7 @@
         animation: anim 10s linear infinite;
         position: absolute;
         top: 0;
-        left: -51px;
+        left: -92px;
 
     }
 
