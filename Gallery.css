@@ -54,6 +54,125 @@
     top: -231px;
     left: -53px;
 }
+
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    .gallery>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 87px;
+    }
+
+    #p1>img{
+        position: relative;
+        width: 132px;
+        height: 194px;
+        left: 368px;
+        top: 445px;
+    }
+
+    #p2>img{
+        position: relative;
+        width: 122px;
+        height: 196px;
+        left: 500px;
+        top: 248px;
+
+    }
+
+    #p3>img{
+        position: relative;
+        width: 135px;
+        height: 196px;
+        left: 621px;
+        top: 49px;
+
+    }
+
+    #p4>img{
+        position: relative;
+        width: 255px;
+        height: 197px;
+        left: 755px;
+        top: -151px;
+
+    }
+
+    #p5>img{
+        position: relative;
+        width: 115px;
+        height: 193px;
+        left: 253px;
+        top: -353px;
+
+    }
+    #images{
+        position: relative;
+        top: -278px;
+        left: -128px;
+
+    }
+}
+@media all and  (min-width:1440px){
+    .gallery>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 87px;
+    }
+
+    #p1>img{
+        position: relative;
+        width: 206px;
+        height: 279px;
+        left: 417px;
+        top: 423px;
+    }
+
+    #p2>img{
+        position: relative;
+        width: 181px;
+        height: 279px;
+        left: 623px;
+        top: 141px;
+
+    }
+
+    #p3>img{
+        position: relative;
+        width: 207px;
+        height: 279px;
+        left: 804px;
+        top: -142px;
+
+    }
+
+    #p4>img{
+        position: relative;
+        width: 401px;
+        height: 278px;
+        left: 1011px;
+        top: -424px;
+
+    }
+
+    #p5>img{
+        position: relative;
+        width: 184px;
+        height: 279px;
+        left: 233px;
+        top: -707px;
+
+    }
+    #images{
+        position: relative;
+        top: -231px;
+        left: -99px;
+    }
+}
+/*
 @media all and (max-width: 768px) {
     #p1>img{
 
@@ -200,4 +319,4 @@
         top: -394px;
 
     }
-}
+}*/
