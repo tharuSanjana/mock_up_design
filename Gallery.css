@@ -55,6 +55,244 @@
     left: -53px;
 }
 
+@media all and (min-width: 377px ) and (max-width: 425px){
+    .gallery>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 230px;
+    }
+
+    #p1>img{
+        position: relative;
+        width: 120px;
+        height: 159px;
+        left: 306px;
+        top: 417px;
+    }
+
+    #p2>img{
+        position: relative;
+        width: 103px;
+        height: 159px;
+        left: 426px;
+        top: 254px;
+
+    }
+
+    #p3>img{
+        position: relative;
+        width: 118px;
+        height: 159px;
+        left: 204px;
+        top: 250px;
+
+    }
+
+    #p4>img{
+        position: relative;
+        width: 221px;
+        height: 159px;
+        left: 322px;
+        top: 88px;
+
+    }
+
+    #p5>img{
+        position: relative;
+        width: 102px;
+        height: 159px;
+        left: 204px;
+        top: -234px;
+
+    }
+    #images{
+        position: relative;
+        top: -154px;
+        left: -151px;
+
+    }
+}
+
+@media all and (min-width: 321px ) and (max-width: 376px){
+    .gallery>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 87px;
+    }
+
+    #p1>img{
+        position: relative;
+        width: 120px;
+        height: 159px;
+        left: 306px;
+        top: 417px;
+    }
+
+    #p2>img{
+        position: relative;
+        width: 103px;
+        height: 159px;
+        left: 426px;
+        top: 254px;
+
+    }
+
+    #p3>img{
+        position: relative;
+        width: 118px;
+        height: 159px;
+        left: 529px;
+        top: 92px;
+
+    }
+
+    #p4>img{
+        position: relative;
+        width: 221px;
+        height: 159px;
+        left: 647px;
+        top: -71px;
+
+    }
+
+    #p5>img{
+        position: relative;
+        width: 102px;
+        height: 159px;
+        left: 204px;
+        top: -234px;
+
+    }
+    #images{
+        position: relative;
+        top: -278px;
+        left: -128px;
+
+    }
+
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+    .gallery>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 87px;
+    }
+
+    #p1>img{
+        position: relative;
+        width: 120px;
+        height: 159px;
+        left: 306px;
+        top: 417px;
+    }
+
+    #p2>img{
+        position: relative;
+        width: 103px;
+        height: 159px;
+        left: 426px;
+        top: 254px;
+
+    }
+
+    #p3>img{
+        position: relative;
+        width: 118px;
+        height: 159px;
+        left: 529px;
+        top: 92px;
+
+    }
+
+    #p4>img{
+        position: relative;
+        width: 221px;
+        height: 159px;
+        left: 647px;
+        top: -71px;
+
+    }
+
+    #p5>img{
+        position: relative;
+        width: 102px;
+        height: 159px;
+        left: 204px;
+        top: -234px;
+
+    }
+    #images{
+        position: relative;
+        top: -278px;
+        left: -128px;
+
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+    .gallery>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 87px;
+    }
+
+    #p1>img{
+        position: relative;
+        width: 132px;
+        height: 194px;
+        left: 368px;
+        top: 445px;
+    }
+
+    #p2>img{
+        position: relative;
+        width: 122px;
+        height: 196px;
+        left: 500px;
+        top: 248px;
+
+    }
+
+    #p3>img{
+        position: relative;
+        width: 135px;
+        height: 196px;
+        left: 621px;
+        top: 49px;
+
+    }
+
+    #p4>img{
+        position: relative;
+        width: 255px;
+        height: 197px;
+        left: 755px;
+        top: -151px;
+
+    }
+
+    #p5>img{
+        position: relative;
+        width: 115px;
+        height: 193px;
+        left: 253px;
+        top: -353px;
+
+    }
+    #images{
+        position: relative;
+        top: -278px;
+        left: -128px;
+
+    }
+}
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     .gallery>div>h3{
         color: #0B60B0;
