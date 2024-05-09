@@ -88,20 +88,88 @@ body {
 #button button:hover {
     opacity: 0.8;
 }
-@media all and (min-width: 321px ) and (max-width: 460px){
+
+@media all and (max-width: 320px ){
     .contact>div>h3{
         color: #0B60B0;
-        left: 151px;
+        text-align: center;
         font-size: 34px;
         position: relative;
-        top: -259px;
+        top: -155px;
     }
 
     #contactRec {
         position: relative;
-        top: -149px;
-        left: 111px;
-        width: 587px;
+        top: -101px;
+        left: 30px;
+        width: 240px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .details {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 31px;
+    }
+
+    .details input {
+        width: 73%;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 51px;
+
+    }
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 80px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: -21px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }
+}
+@media all and (min-width: 321px ) and (max-width: 376px){
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 34px;
+        position: relative;
+        top: -155px;
+    }
+
+    #contactRec {
+        position: relative;
+        top: -101px;
+        left: 43px;
+        width: 281px;
         height: 561px;
 
         border: 13px solid white;
@@ -119,20 +187,24 @@ body {
         left: 56px;
     }
 
-
+    .details input {
+        width: 63%;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
     #contactRec>dt{
         top: 41px;
         color: dodgerblue;
         font-size: 43px;
         position: absolute;
-        left: 218px;
+        left: 70px;
 
     }
 
     #button {
         position: absolute;
         top: 499px;
-        left: 373px;
+        left: 109px;
 
     }
 
@@ -140,7 +212,7 @@ body {
         background-color: black;
         color: dodgerblue;
         padding: 8px 20px;
-        margin-right: 10px;
+        margin-right: -21px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -150,6 +222,74 @@ body {
     #button button:hover {
         opacity: 0.8;
     }
+}
+@media all and (min-width: 377px ) and (max-width: 425px){
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 34px;
+        position: relative;
+        top: -155px;
+    }
+
+    #contactRec {
+        position: relative;
+        top: -101px;
+        left: 43px;
+        width: 325px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .details {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 56px;
+    }
+
+    .details input {
+        width: 63%;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 94px;
+
+    }
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 151px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: -21px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }
+
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
     .contact>div>h3{
@@ -157,13 +297,13 @@ body {
         text-align: center;
         font-size: 34px;
         position: relative;
-        top: -259px;
+        top: -510px;
     }
 
     #contactRec {
         position: relative;
-        top: -149px;
-        left: 111px;
+        top: -439px;
+        left: 83px;
         width: 587px;
         height: 561px;
 
@@ -215,15 +355,7 @@ body {
     }
 
 }
-@media all and (min-width: 769px ) and (max-width: 834px){
-    .contact>div>h3{
-        color: #0B60B0;
-        text-align: center;
-        font-size: 40px;
-        position: relative;
-        top: -259px;
-    }
-}
+
 @media all and (min-width: 835px ) and (max-width: 1024px){
 
     .contact>div>h3{
@@ -231,12 +363,12 @@ body {
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: -259px;
+        top: -482px;
     }
 
     #contactRec {
         position: relative;
-        top: -149px;
+        top: -394px;
         left: 185px;
         width: 656px;
         height: 561px;
@@ -310,14 +442,14 @@ body {
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: -259px;
+        top: -498px;
     }
 
 
     #contactRec {
         position: relative;
-        top: -149px;
-        left: 367px;
+        top: -412px;
+        left: 177px;
         width: 656px;
         height: 561px;
 
@@ -335,16 +467,6 @@ body {
         left: 260px;
         text-align: center;
     }
-
-    /*   #contactRec>dl{
-           position: absolute;
-           top: 0;
-       }*/
-
-
-    /* #contactRec>dd{
-         display: inline;
-     }*/
 
     .details {
         color: white;
@@ -398,15 +520,15 @@ body {
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: -259px;
+        top: -816px;
     }
 
 
 
     #contactRec {
         position: relative;
-        top: -149px;
-        left: 367px;
+        top: -714px;
+        left: 388px;
         width: 656px;
         height: 561px;
 
