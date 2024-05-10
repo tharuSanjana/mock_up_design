@@ -1,0 +1,33 @@
+footer>div{
+    width: 100vw;
+    height: 329px;
+    position: relative;
+    top: -667px;
+    background-color: #007bff;
+
+}
+
+#le{
+    position: absolute;
+    top:77px;
+    left: 531px;
+    font-size: 71px;
+    font-family: Cursive;
+}
+
+#thank{
+    color: white;
+    font-size: 31px;
+    position: absolute;
+    top: 210px;
+    left: 643px;
+}
+
+footer>div>label{
+    display: flex;
+    margin: 10px 10px;
+    position: relative;
+    top: 115px;
+    left: 1157px;
+
+}
