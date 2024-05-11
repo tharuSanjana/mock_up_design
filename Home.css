@@ -1,5 +1,11 @@
 body{
     background-color: black;
+
+}
+
+body, h1, ul, header, main, section, footer {
+    margin: 0;
+    padding: 0;
 }
 header{
     top: 0;

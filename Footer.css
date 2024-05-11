@@ -1,8 +1,8 @@
-footer>div{
+footer>#footer{
     width: 100vw;
-    height: 329px;
+    height: 388px;
     position: relative;
-    top: -667px;
+    top: 97px;
     background-color: #007bff;
 
 }
@@ -29,5 +29,447 @@ footer>div>label{
     position: relative;
     top: 115px;
     left: 1157px;
+
+}
+
+#socialImg>img{
+    position: relative;
+    border-radius: 100%;
+    width: 36px;
+    aspect-ratio: 1/1;
+    top: -71px;
+    left: 1160px;
+}
+
+#footer{
+
+    white-space: nowrap;
+
+}
+
+#bye{
+    position: relative;
+    top: -290px;
+    left: 103px;
+    border-radius: 100%;
+    width: 269px;
+    aspect-ratio: 1/1;
+}
+
+@media all and (max-width: 320px ){
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:170px;
+        left: 51px;
+        font-size: 45px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 321px;
+    }
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 262px;
+        left: 42px;
+
+    }
+
+    #socialImg>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: 16px;
+        left: 99px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -314px;
+        left: 78px;
+        border-radius: 100%;
+        width: 146px;
+        aspect-ratio: 1/1;
+    }
+}
+@media all and (min-width: 321px ) and (max-width: 376px){
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:170px;
+        left: 64px;
+        font-size: 55px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 321px;
+    }
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 262px;
+        left: 91px;
+
+    }
+
+    #socialImg>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: 16px;
+        left: 99px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -314px;
+        left: 114px;
+        border-radius: 100%;
+        width: 146px;
+        aspect-ratio: 1/1;
+    }
+}
+@media all and (min-width: 377px ) and (max-width: 425px){
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:170px;
+        left: 64px;
+        font-size: 55px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 321px;
+    }
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 262px;
+        left: 102px;
+
+    }
+
+    #socialImg>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: 16px;
+        left: 115px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -314px;
+        left: 114px;
+        border-radius: 100%;
+        width: 146px;
+        aspect-ratio: 1/1;
+    }
+
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:77px;
+        left: 241px;
+        font-size: 71px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 321px;
+    }
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 291px;
+        left: 493px;
+
+    }
+
+    #socialImg>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: -66px;
+        left: 502px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -290px;
+        left: 21px;
+        border-radius: 100%;
+        width: 191px;
+        aspect-ratio: 1/1;
+    }
+
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:77px;
+        left: 354px;
+        font-size: 67px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 450px;
+    }
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 249px;
+        left: 743px;
+
+    }
+
+    #socialImg>img{
+        position: relative;
+        border-radius: 100%;
+        width: 36px;
+        aspect-ratio: 1/1;
+        top: 14px;
+        left: 753px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -290px;
+        left: 21px;
+        border-radius: 100%;
+        width: 269px;
+        aspect-ratio: 1/1;
+    }
+}
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:77px;
+        left: 354px;
+        font-size: 71px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 450px;
+    }
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 249px;
+        left: 743px;
+
+    }
+
+    #socialImg>img{
+        position: relative;
+        border-radius: 100%;
+        width: 36px;
+        aspect-ratio: 1/1;
+        top: 14px;
+        left: 753px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -290px;
+        left: 21px;
+        border-radius: 100%;
+        width: 269px;
+        aspect-ratio: 1/1;
+    }
+
+}
+@media all and  (min-width:1440px){
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:77px;
+        left: 531px;
+        font-size: 71px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 643px;
+    }
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 115px;
+        left: 1157px;
+
+    }
+
+    #socialImg>img{
+        position: relative;
+        border-radius: 100%;
+        width: 36px;
+        aspect-ratio: 1/1;
+        top: -71px;
+        left: 1160px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -290px;
+        left: 103px;
+        border-radius: 100%;
+        width: 269px;
+        aspect-ratio: 1/1;
+    }
 
 }
