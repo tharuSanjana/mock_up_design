@@ -1,8 +1,11 @@
-footer>#footer{
+footer {
+    position: relative;
+}
+/*#f{
     width: 100vw;
     height: 388px;
     position: relative;
-    top: 97px;
+    top: -452px;
     background-color: #007bff;
 
 }
@@ -10,9 +13,9 @@ footer>#footer{
 #le{
     position: absolute;
     top:77px;
-    left: 531px;
+    left: 590px;
     font-size: 71px;
-    font-family: Cursive;
+    !*font-family: Cursive;*!
 }
 
 #thank{
@@ -27,8 +30,9 @@ footer>div>label{
     display: flex;
     margin: 10px 10px;
     position: relative;
-    top: 115px;
-    left: 1157px;
+    top: 181px;
+    left: 579px;
+    font-size: 20px;
 
 }
 
@@ -37,26 +41,92 @@ footer>div>label{
     border-radius: 100%;
     width: 36px;
     aspect-ratio: 1/1;
-    top: -71px;
-    left: 1160px;
+    top: -584px;
+    left: 594px;
 }
 
-#footer{
+#f{
+
+    white-space: nowrap;
+
+}*/
+
+#f{
+    width: 100vw;
+    height: 388px;
+    position: relative;
+    top: -387px;
+    background-color: #007bff;
+
+}
+
+#le{
+    position: absolute;
+    top:77px;
+    left: 590px;
+    font-size: 71px;
+
+}
+
+#thank{
+    color: white;
+    font-size: 31px;
+    position: absolute;
+    top: 210px;
+    left: 643px;
+}
+
+footer>div>label{
+    display: flex;
+    margin: 10px 10px;
+    position: relative;
+    top: 181px;
+    left: 579px;
+    font-size: 20px;
+}
+
+#socialImg>img{
+    position: relative;
+    border-radius: 100%;
+    width: 36px;
+    aspect-ratio: 1/1;
+    top: 222px;
+    left: 594px;
+}
+
+#f{
 
     white-space: nowrap;
 
 }
 
-#bye{
+footer {
     position: relative;
-    top: -290px;
-    left: 103px;
-    border-radius: 100%;
-    width: 269px;
-    aspect-ratio: 1/1;
+    background-color: white;
+    top: 0;
+    width: 100vw;
 }
 
+
+p{
+    font-size: 37px;
+    position: absolute;
+    top: 134px;
+    left: 280px;
+    font-family:Monospace;
+}
+
+
 @media all and (max-width: 320px ){
+
+    #f {
+        width: 100vw;
+        height: 260px;
+        position: relative;
+        top: -21px;
+        background-color: #007bff;
+    }
+
     footer>#footer{
         width: 100vw;
         height: 388px;
@@ -68,8 +138,8 @@ footer>div>label{
 
     #le{
         position: absolute;
-        top:170px;
-        left: 51px;
+        top:42px;
+        left: 41px;
         font-size: 45px;
         font-family: Cursive;
     }
@@ -86,9 +156,9 @@ footer>div>label{
         display: flex;
         margin: 10px 10px;
         position: relative;
-        top: 262px;
-        left: 42px;
-
+        top: 132px;
+        left: 30px;
+        font-size: 16px;
     }
 
     #socialImg>img{
@@ -96,8 +166,8 @@ footer>div>label{
         border-radius: 100%;
         width: 25px;
         aspect-ratio: 1/1;
-        top: 16px;
-        left: 99px;
+        top: 145px;
+        left: 91px;
     }
 
     #footer{
@@ -106,16 +176,32 @@ footer>div>label{
 
     }
 
-    #bye{
+    footer {
         position: relative;
-        top: -314px;
-        left: 78px;
-        border-radius: 100%;
-        width: 146px;
-        aspect-ratio: 1/1;
+        background-color: white;
+        top: 0;
+        width: 100vw;
+        height: 388px;
+    }
+
+    p{
+        font-size: 12px;
+        position: absolute;
+        top: 268px;
+        left: 25px;
+        font-family:Monospace;
     }
 }
 @media all and (min-width: 321px ) and (max-width: 376px){
+
+    #f {
+        width: 100vw;
+        height: 260px;
+        position: relative;
+        top: -21px;
+        background-color: #007bff;
+    }
+
     footer>#footer{
         width: 100vw;
         height: 388px;
@@ -127,9 +213,9 @@ footer>div>label{
 
     #le{
         position: absolute;
-        top:170px;
+        top:60px;
         left: 64px;
-        font-size: 55px;
+        font-size: 50px;
         font-family: Cursive;
     }
 
@@ -145,8 +231,9 @@ footer>div>label{
         display: flex;
         margin: 10px 10px;
         position: relative;
-        top: 262px;
-        left: 91px;
+        top: 136px;
+        left: 53px;
+        font-size: 17px;
 
     }
 
@@ -155,8 +242,8 @@ footer>div>label{
         border-radius: 100%;
         width: 25px;
         aspect-ratio: 1/1;
-        top: 16px;
-        left: 99px;
+        top: 141px;
+        left: 127px;
     }
 
     #footer{
@@ -173,8 +260,36 @@ footer>div>label{
         width: 146px;
         aspect-ratio: 1/1;
     }
+
+    footer {
+        position: relative;
+        background-color: white;
+        top: 0;
+        width: 100vw;
+        height: 388px;
+    }
+
+    p{
+        font-size: 12px;
+        position: absolute;
+        top: 268px;
+        left: 25px;
+        font-family:Monospace;
+    }
 }
 @media all and (min-width: 377px ) and (max-width: 425px){
+
+    body{
+        overflow-x: hidden;
+    }
+    #f {
+        width: 100vw;
+        height: 260px;
+        position: relative;
+        top: -21px;
+        background-color: #007bff;
+    }
+
     footer>#footer{
         width: 100vw;
         height: 388px;
@@ -186,7 +301,7 @@ footer>div>label{
 
     #le{
         position: absolute;
-        top:170px;
+        top:44px;
         left: 64px;
         font-size: 55px;
         font-family: Cursive;
@@ -200,21 +315,21 @@ footer>div>label{
         left: 321px;
     }
 
+
     footer>div>label{
         display: flex;
         margin: 10px 10px;
         position: relative;
-        top: 262px;
-        left: 102px;
+        top: 135px;
+        left: 64px;
 
     }
-
     #socialImg>img{
         position: relative;
         border-radius: 100%;
         width: 25px;
         aspect-ratio: 1/1;
-        top: 16px;
+        top: 140px;
         left: 115px;
     }
 
@@ -233,8 +348,34 @@ footer>div>label{
         aspect-ratio: 1/1;
     }
 
+    footer {
+        position: relative;
+        background-color: white;
+        top: 0;
+        width: 100vw;
+        height: 388px;
+    }
+
+    p{
+        font-size: 15px;
+        position: absolute;
+        top: 265px;
+        left: 55px;
+        font-family:Monospace;
+    }
+
+
+
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
+    #f{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: -357px;
+        background-color: #007bff;
+
+    }
     footer>#footer{
         width: 100vw;
         height: 388px;
@@ -247,7 +388,7 @@ footer>div>label{
     #le{
         position: absolute;
         top:77px;
-        left: 241px;
+        left: 190px;
         font-size: 71px;
         font-family: Cursive;
     }
@@ -264,18 +405,18 @@ footer>div>label{
         display: flex;
         margin: 10px 10px;
         position: relative;
-        top: 291px;
-        left: 493px;
+        top: 207px;
+        left: 189px;
 
     }
 
     #socialImg>img{
         position: relative;
         border-radius: 100%;
-        width: 25px;
+        width: 33px;
         aspect-ratio: 1/1;
-        top: -66px;
-        left: 502px;
+        top: 225px;
+        left: 200px;
     }
 
     #footer{
@@ -284,14 +425,14 @@ footer>div>label{
 
     }
 
-    #bye{
-        position: relative;
-        top: -290px;
-        left: 21px;
-        border-radius: 100%;
-        width: 191px;
-        aspect-ratio: 1/1;
+    p{
+        font-size: 27px;
+        position: absolute;
+        top: 80px;
+        left: 101px;
+        font-family:Monospace;
     }
+
 
 }
 @media all and (min-width: 835px ) and (max-width: 1024px){
@@ -324,8 +465,8 @@ footer>div>label{
         display: flex;
         margin: 10px 10px;
         position: relative;
-        top: 249px;
-        left: 743px;
+        top: 205px;
+        left: 360px;
 
     }
 
@@ -334,8 +475,8 @@ footer>div>label{
         border-radius: 100%;
         width: 36px;
         aspect-ratio: 1/1;
-        top: 14px;
-        left: 753px;
+        top: 234px;
+        left: 369px;
     }
 
     #footer{
@@ -344,14 +485,14 @@ footer>div>label{
 
     }
 
-    #bye{
-        position: relative;
-        top: -290px;
-        left: 21px;
-        border-radius: 100%;
-        width: 269px;
-        aspect-ratio: 1/1;
+    p{
+        font-size: 37px;
+        position: absolute;
+        top: 80px;
+        left: 132px;
+        font-family:Monospace;
     }
+
 }
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     footer>#footer{
@@ -383,8 +524,8 @@ footer>div>label{
         display: flex;
         margin: 10px 10px;
         position: relative;
-        top: 249px;
-        left: 743px;
+        top: 222px;
+        left: 352px;
 
     }
 
@@ -393,8 +534,8 @@ footer>div>label{
         border-radius: 100%;
         width: 36px;
         aspect-ratio: 1/1;
-        top: 14px;
-        left: 753px;
+        top: 251px;
+        left: 357px;
     }
 
     #footer{
@@ -412,13 +553,23 @@ footer>div>label{
         aspect-ratio: 1/1;
     }
 
+    p{
+        font-size: 37px;
+        position: absolute;
+        top: 80px;
+        left: 132px;
+        font-family:Monospace;
+    }
+
 }
 @media all and  (min-width:1440px){
-    footer>#footer{
+
+
+    #f{
         width: 100vw;
         height: 388px;
         position: relative;
-        top: 97px;
+        top: -387px;
         background-color: #007bff;
 
     }
@@ -426,9 +577,9 @@ footer>div>label{
     #le{
         position: absolute;
         top:77px;
-        left: 531px;
+        left: 590px;
         font-size: 71px;
-        font-family: Cursive;
+
     }
 
     #thank{
@@ -443,9 +594,9 @@ footer>div>label{
         display: flex;
         margin: 10px 10px;
         position: relative;
-        top: 115px;
-        left: 1157px;
-
+        top: 181px;
+        left: 579px;
+        font-size: 20px;
     }
 
     #socialImg>img{
@@ -453,23 +604,30 @@ footer>div>label{
         border-radius: 100%;
         width: 36px;
         aspect-ratio: 1/1;
-        top: -71px;
-        left: 1160px;
+        top: 222px;
+        left: 594px;
     }
 
-    #footer{
+    #f{
 
         white-space: nowrap;
 
     }
 
-    #bye{
+    footer {
         position: relative;
-        top: -290px;
-        left: 103px;
-        border-radius: 100%;
-        width: 269px;
-        aspect-ratio: 1/1;
+        background-color: white;
+        top: 0;
+        width: 100vw;
+    }
+
+
+    p{
+        font-size: 37px;
+        position: absolute;
+        top: 134px;
+        left: 280px;
+        font-family:Monospace;
     }
 
 }
