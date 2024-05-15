@@ -201,7 +201,7 @@ img.assGit {
 
 #projectRec>.about-project>#chat-label{
 
-    font-family: Ravie;
+   /* font-family: Ravie;*/
     position: absolute;
     top: 186px;
     left: 16px;
@@ -218,7 +218,7 @@ img.assGit {
 }
 #projectRec>.about-project>#yummyFood-label{
 
-    font-family: Ravie;
+   /* font-family: Ravie;*/
     position: absolute;
     top: 186px;
     left: 16px;
@@ -244,7 +244,7 @@ img.assGit {
 
 #projectRec>.about-project>#lidrary-label{
 
-    font-family: Ravie;
+   /* font-family: Ravie;*/
     position: absolute;
     top: 186px;
     left: 16px;
@@ -270,7 +270,7 @@ img.assGit {
 
 #projectRec>.second-row>#pos-label{
 
-    font-family: Ravie;
+   /* font-family: Ravie;*/
     position: absolute;
     top: 186px;
     left: 16px;
@@ -362,7 +362,7 @@ img.assGit {
 
     .githubSearch-yf{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -371,7 +371,7 @@ img.assGit {
     }
     .githubSearch-ca{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -380,7 +380,7 @@ img.assGit {
     }
     .githubSearch-li{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -390,7 +390,7 @@ img.assGit {
 
     .githubSearch-po{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -490,10 +490,10 @@ img.assGit {
 
     #projectRec>.about-project>#chat-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 36px;
         font-size: 29px;
     }
 
@@ -507,10 +507,10 @@ img.assGit {
     }
     #projectRec>.about-project>#yummyFood-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 49px;
         font-size: 29px;
     }
 
@@ -533,7 +533,7 @@ img.assGit {
 
     #projectRec>.about-project>#lidrary-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -559,10 +559,10 @@ img.assGit {
 
     #projectRec>.second-row>#pos-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 68px;
         font-size: 29px;
     }
 
@@ -583,6 +583,20 @@ img.assGit {
         bottom: 0;
         right: 0;
 
+    }
+
+    .about-project>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
+    }
+
+    .second-row>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
     }
 }
 
@@ -662,7 +676,7 @@ img.assGit {
 
     .githubSearch-yf{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -671,7 +685,7 @@ img.assGit {
     }
     .githubSearch-ca{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -680,7 +694,7 @@ img.assGit {
     }
     .githubSearch-li{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -690,7 +704,7 @@ img.assGit {
 
     .githubSearch-po{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -790,10 +804,10 @@ img.assGit {
 
     #projectRec>.about-project>#chat-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 40px;
         font-size: 29px;
     }
 
@@ -806,11 +820,10 @@ img.assGit {
 
     }
     #projectRec>.about-project>#yummyFood-label{
-
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 55px;
         font-size: 29px;
     }
 
@@ -833,7 +846,7 @@ img.assGit {
 
     #projectRec>.about-project>#lidrary-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -859,10 +872,10 @@ img.assGit {
 
     #projectRec>.second-row>#pos-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 65px;
         font-size: 29px;
     }
 
@@ -883,6 +896,20 @@ img.assGit {
         bottom: 0;
         right: 0;
 
+    }
+
+    .about-project>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
+    }
+
+    .second-row>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
     }
 }
 @media all and (min-width: 377px ) and (max-width: 425px){
@@ -963,7 +990,7 @@ img.assGit {
 
     .githubSearch-yf{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -972,7 +999,7 @@ img.assGit {
     }
     .githubSearch-ca{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -981,7 +1008,7 @@ img.assGit {
     }
     .githubSearch-li{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -991,7 +1018,7 @@ img.assGit {
 
     .githubSearch-po{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1091,10 +1118,10 @@ img.assGit {
 
     #projectRec>.about-project>#chat-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 40px;
         font-size: 29px;
     }
 
@@ -1108,10 +1135,10 @@ img.assGit {
     }
     #projectRec>.about-project>#yummyFood-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 56px;
         font-size: 29px;
     }
 
@@ -1134,7 +1161,7 @@ img.assGit {
 
     #projectRec>.about-project>#lidrary-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -1160,10 +1187,10 @@ img.assGit {
 
     #projectRec>.second-row>#pos-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 72px;
         font-size: 29px;
     }
 
@@ -1184,6 +1211,20 @@ img.assGit {
         bottom: 0;
         right: 0;
 
+    }
+
+    .about-project>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
+    }
+
+    .second-row>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
     }
 
 }
@@ -1264,7 +1305,7 @@ img.assGit {
 
     .githubSearch-yf{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1273,7 +1314,7 @@ img.assGit {
     }
     .githubSearch-ca{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1282,7 +1323,7 @@ img.assGit {
     }
     .githubSearch-li{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1292,7 +1333,7 @@ img.assGit {
 
     .githubSearch-po{
         position: relative;
-        left: 18px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1392,10 +1433,10 @@ img.assGit {
 
     #projectRec>.about-project>#chat-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 39px;
         font-size: 29px;
     }
 
@@ -1409,10 +1450,10 @@ img.assGit {
     }
     #projectRec>.about-project>#yummyFood-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 45px;
         font-size: 29px;
     }
 
@@ -1435,7 +1476,7 @@ img.assGit {
 
     #projectRec>.about-project>#lidrary-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -1461,10 +1502,10 @@ img.assGit {
 
     #projectRec>.second-row>#pos-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 64px;
         font-size: 29px;
     }
 
@@ -1485,6 +1526,20 @@ img.assGit {
         bottom: 0;
         right: 0;
 
+    }
+
+    .about-project>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
+    }
+
+    .second-row>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
     }
 }
 @media all and (min-width: 835px ) and (max-width: 1024px){
@@ -1564,7 +1619,7 @@ img.assGit {
 
     .githubSearch-yf{
         position: relative;
-        left: 18px;
+        left: -10px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1573,7 +1628,7 @@ img.assGit {
     }
     .githubSearch-ca{
         position: relative;
-        left: 18px;
+        left: -10px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1582,7 +1637,7 @@ img.assGit {
     }
     .githubSearch-li{
         position: relative;
-        left: 18px;
+        left: -10px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1592,7 +1647,7 @@ img.assGit {
 
     .githubSearch-po{
         position: relative;
-        left: 18px;
+        left: -10px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1692,10 +1747,10 @@ img.assGit {
 
     #projectRec>.about-project>#chat-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 26px;
         font-size: 29px;
     }
 
@@ -1709,10 +1764,10 @@ img.assGit {
     }
     #projectRec>.about-project>#yummyFood-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 44px;
         font-size: 29px;
     }
 
@@ -1735,7 +1790,7 @@ img.assGit {
 
     #projectRec>.about-project>#lidrary-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -1761,10 +1816,10 @@ img.assGit {
 
     #projectRec>.second-row>#pos-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 62px;
         font-size: 29px;
     }
 
@@ -1785,6 +1840,20 @@ img.assGit {
         bottom: 0;
         right: 0;
 
+    }
+
+    .about-project>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
+    }
+
+    .second-row>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
     }
 }
 @media all and (min-width: 1025px ) and (max-width: 1440px){
@@ -1863,7 +1932,7 @@ img.assGit {
 
     .githubSearch-yf{
         position: relative;
-        left: 24px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1872,7 +1941,7 @@ img.assGit {
     }
     .githubSearch-ca{
         position: relative;
-        left: 24px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1881,7 +1950,7 @@ img.assGit {
     }
     .githubSearch-li{
         position: relative;
-        left: 24px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1891,7 +1960,7 @@ img.assGit {
 
     .githubSearch-po{
         position: relative;
-        left: 24px;
+        left: -4px;
         top: 389px;
         border-radius: 100%;
         width: 34px;
@@ -1991,7 +2060,7 @@ img.assGit {
 
     #projectRec>.about-project>#chat-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -2007,8 +2076,7 @@ img.assGit {
 
     }
     #projectRec>.about-project>#yummyFood-label{
-
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -2034,7 +2102,7 @@ img.assGit {
 
     #projectRec>.about-project>#lidrary-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -2060,7 +2128,7 @@ img.assGit {
 
     #projectRec>.second-row>#pos-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -2084,6 +2152,20 @@ img.assGit {
         bottom: 0;
         right: 0;
 
+    }
+
+    .about-project>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
+    }
+
+    .second-row>i{
+        font-size: 30px;
+        position: absolute;
+        top: 388px;
+        left: 156px;
     }
 }
 @media all and  (min-width:1440px){
@@ -2315,10 +2397,10 @@ img.assGit {
 
     #projectRec>.about-project>#chat-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 37px;
         font-size: 29px;
     }
 
@@ -2332,10 +2414,10 @@ img.assGit {
     }
     #projectRec>.about-project>#yummyFood-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 47px;
         font-size: 29px;
     }
 
@@ -2358,7 +2440,7 @@ img.assGit {
 
     #projectRec>.about-project>#lidrary-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
         left: 16px;
@@ -2384,10 +2466,10 @@ img.assGit {
 
     #projectRec>.second-row>#pos-label{
 
-        font-family: Ravie;
+        font-family: Serif;
         position: absolute;
         top: 186px;
-        left: 16px;
+        left: 71px;
         font-size: 29px;
     }
 

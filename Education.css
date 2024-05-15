@@ -218,16 +218,16 @@
     #kcc>#aboutKcc{
         color: white;
         position: relative;
-        top: 167px;
+        top: 200px;
         left: 16px;
-        font-size: 17px;
+        font-size: 21px;
     }
 
     #kcc>#result1{
         color: white;
         position: relative;
         top: 197px;
-        left: 59px;
+        left: 6px;
         font-size: 21px;
     }
 
@@ -235,7 +235,7 @@
         color: white;
         position: relative;
         top: 156px;
-        left: 59px;
+        left: 6px;
         font-size: 21px;
     }
 
