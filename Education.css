@@ -9,9 +9,9 @@
 .rec{
     position: relative;
     top: -399px;
-    left: 50px;
+    left: -8px;
     background-color: #40A2D8;
-    width: 93vw;
+    width: 100vw;
     height: 52vh;
 }
 
@@ -20,7 +20,8 @@
     top: 57px;
     left: 50px;
     width: 174px;
-    height: 168px
+    height: 168px;
+    border-radius: 100%;
 
 }
 
@@ -40,11 +41,27 @@
     height: 168px;
 }
 
-#kcc>p{
+#kcc>#aboutKcc{
     color: white;
     position: relative;
     top: -496px;
     left: 535px;
+    font-size: 21px;
+}
+
+#kcc>#result1{
+    color: white;
+    position: relative;
+    top: -496px;
+    left: 340px;
+    font-size: 21px;
+}
+
+#kcc>#result2{
+    color: white;
+    position: relative;
+    top: -496px;
+    left: 340px;
     font-size: 21px;
 }
 
@@ -66,114 +83,6 @@
     left: 600px;
 }
 
-/*
-@media all and (max-width: 768px) {
-
-    .rec{
-        position: relative;
-        top: 30px;
-        left: 27px !important;
-        background-color: #40A2D8;
-        width: 93vw;
-        height: 52vh;
-    }
-
-    .rec>img{
-        position: relative;
-        top: 131px !important;
-        left: 50px;
-        width: 174px;
-        height: 168px
-
-    }
-
-    .desc{
-        position: absolute;
-        top: 101px !important;
-        left: 256px !important;
-        font-size: 20px;
-        line-height: 64px!important;
-    }
-
-    #kcc>img{
-        position: relative;
-        top: 108px;
-        left: 35px !important;
-        width: 174px;
-        height: 168px;
-    }
-
-    #kcc>p{
-        color: white;
-        position: relative;
-        top: -95px;
-        !*left: 200px !important;*!
-        left: 50%; !* Start from the middle of the container *!
-        transform: translateX(-18%);
-        font-size: 21px;
-    }
-
-    #kcc>h2{
-        color: white;
-        position: relative;
-        top: -100px;
-        left: 50%; !* Start from the middle of the container *!
-        transform: translateX(-18%);
-        font-size: 21px;
-    }
-
-
-    #kcc>h4{
-        color: white;
-        position: relative;
-        top: -93px;
-        left: 50%; !* Start from the middle of the container *!
-        transform: translateX(-18%);
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .rec{
-        position: relative;
-        top: 30px;
-        left: 50px;
-        background-color: #40A2D8;
-        width: 93vw;
-        height: 52vh;
-    }
-
-    .desc{
-        position: absolute;
-        top: 30px !important;
-        left: 483px;
-        font-size: 20px;
-        line-height: 106px;
-    }
-
-    #kcc>p{
-        color: white;
-        position: relative;
-        top: -95px;
-        left: 359px !important;
-        font-size: 21px;
-    }
-
-    #kcc>h2{
-        color: white;
-        position: relative;
-        top: -100px;
-        left: 364px !important;
-        font-size: 21px;
-    }
-
-    #kcc>h4{
-        color: white;
-        position: relative;
-        top: -93px;
-        left: 429px !important;
-    }
-}
-*/
 @media all and (max-width: 320px ){
 
     .education>div>h3{
@@ -187,9 +96,9 @@
     .rec{
         position: relative;
         top: 150px;
-        left: 16px;
+        left: -8px;
         background-color: #40A2D8;
-        width: 93vw;
+        width: 100vw;
         height: 52vh;
     }
 
@@ -198,7 +107,8 @@
         top: 14px;
         left: 56px;
         width: 174px;
-        height: 168px
+        height: 168px;
+        border-radius: 100%;
 
     }
 
@@ -218,12 +128,28 @@
         height: 168px;
     }
 
-    #kcc>p{
+    #kcc>#aboutKcc{
         color: white;
         position: relative;
-        top: 167px;
-        left: 16px;
+        top: 201px;
+        left: 23px;
         font-size: 17px;
+    }
+
+    #kcc>#result1{
+        color: white;
+        position: relative;
+        top: 191px;
+        left: 11px;
+        font-size: 21px;
+    }
+
+    #kcc>#result2{
+        color: white;
+        position: relative;
+        top: 149px;
+        left: 14px;
+        font-size: 21px;
     }
 
     #kcc>h2{
@@ -240,7 +166,7 @@
         font-size: 24px;
         color: deepskyblue;
         position: relative;
-        top: 198px;
+        top: 181px;
         left: 85px;
     }
 }
@@ -257,9 +183,9 @@
     .rec{
         position: relative;
         top: 150px;
-        left: 16px;
+        left: -8px;
         background-color: #40A2D8;
-        width: 93vw;
+        width: 100vw;
         height: 52vh;
     }
 
@@ -268,7 +194,8 @@
         top: 14px;
         left: 88px;
         width: 174px;
-        height: 168px
+        height: 168px;
+        border-radius: 100%;
 
     }
 
@@ -288,12 +215,28 @@
         height: 168px;
     }
 
-    #kcc>p{
+    #kcc>#aboutKcc{
         color: white;
         position: relative;
         top: 167px;
         left: 16px;
         font-size: 17px;
+    }
+
+    #kcc>#result1{
+        color: white;
+        position: relative;
+        top: 197px;
+        left: 59px;
+        font-size: 21px;
+    }
+
+    #kcc>#result2{
+        color: white;
+        position: relative;
+        top: 156px;
+        left: 59px;
+        font-size: 21px;
     }
 
     #kcc>h2{
@@ -310,7 +253,7 @@
         font-size: 24px;
         color: deepskyblue;
         position: relative;
-        top: 198px;
+        top: 176px;
         left: 85px;
     }
 }
@@ -327,9 +270,9 @@
     .rec{
         position: relative;
         top: 150px;
-        left: 16px;
+        left: -8px;
         background-color: #40A2D8;
-        width: 93vw;
+        width: 100vw;
         height: 52vh;
     }
 
@@ -338,7 +281,8 @@
         top: 14px;
         left: 108px;
         width: 174px;
-        height: 168px
+        height: 168px;
+        border-radius: 100%;
 
     }
 
@@ -358,11 +302,27 @@
         height: 168px;
     }
 
-    #kcc>p{
+    #kcc>#aboutKcc{
         color: white;
         position: relative;
-        top: 167px;
+        top: 182px;
         left: 40px;
+        font-size: 21px;
+    }
+
+    #kcc>#result1{
+        color: white;
+        position: relative;
+        top: 153px;
+        left: 24px;
+        font-size: 21px;
+    }
+
+    #kcc>#result2{
+        color: white;
+        position: relative;
+        top: 138px;
+        left: 24px;
         font-size: 21px;
     }
 
@@ -370,7 +330,7 @@
 
         color: white;
         position: relative;
-        top: 193px;
+        top: 166px;
         left: 42px;
         font-size: 21px;
     }
@@ -380,7 +340,7 @@
         font-size: 24px;
         color: deepskyblue;
         position: relative;
-        top: 198px;
+        top: 166px;
         left: 85px;
     }
 }
@@ -397,9 +357,9 @@
     .rec{
         position: relative;
         top: -399px;
-        left: 29px;
+        left: -8px;
         background-color: #40A2D8;
-        width: 93vw;
+        width: 100vw;
         height: 52vh;
     }
 
@@ -408,14 +368,15 @@
         top: 57px;
         left: 50px;
         width: 174px;
-        height: 168px
+        height: 168px;
+        border-radius: 100%;
 
     }
 
     .desc{
         position: absolute;
         top: 11px;
-        left: 253px;
+        left: 243px;
         font-size: 20px;
         line-height: 106px;
     }
@@ -423,16 +384,30 @@
     #kcc>img{
         position: relative;
         top: -275px;
-        left: 57px;
+        left: 39px;
         width: 174px;
         height: 168px;
     }
 
-    #kcc>p{
+    #kcc>#aboutKcc{
         color: white;
         position: relative;
         top: -496px;
-        left: 245px;
+        left: 226px;
+        font-size: 21px;
+    }
+    #kcc>#result1{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 264px;
+        font-size: 21px;
+    }
+    #kcc>#result2{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 264px;
         font-size: 21px;
     }
 
@@ -441,7 +416,7 @@
         color: white;
         position: relative;
         top: -503px;
-        left: 246px;
+        left: 226px;
         font-size: 21px;
     }
 
@@ -467,9 +442,9 @@
     .rec{
         position: relative;
         top: -399px;
-        left: 50px;
+        left: -8px;
         background-color: #40A2D8;
-        width: 93vw;
+        width: 100vw;
         height: 52vh;
     }
 
@@ -478,7 +453,8 @@
         top: 57px;
         left: 50px;
         width: 174px;
-        height: 168px
+        height: 168px;
+        border-radius: 100%;
 
     }
 
@@ -498,11 +474,26 @@
         height: 168px;
     }
 
-    #kcc>p{
+    #kcc>#aboutKcc{
         color: white;
         position: relative;
         top: -496px;
         left: 340px;
+        font-size: 21px;
+    }
+
+    #kcc>#result1{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 349px;
+        font-size: 21px;
+    }
+    #kcc>#result2{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 349px;
         font-size: 21px;
     }
 
@@ -537,9 +528,9 @@
     .rec{
         position: relative;
         top: -399px;
-        left: 50px;
+        left: -8px;
         background-color: #40A2D8;
-        width: 93vw;
+        width: 100vw;
         height: 52vh;
     }
 
@@ -548,7 +539,8 @@
         top: 57px;
         left: 50px;
         width: 174px;
-        height: 168px
+        height: 168px;
+        border-radius: 100%;
 
     }
 
@@ -568,11 +560,27 @@
         height: 168px;
     }
 
-    #kcc>p{
+    #kcc>#aboutKcc{
         color: white;
         position: relative;
         top: -496px;
         left: 340px;
+        font-size: 21px;
+    }
+
+    #kcc>#result1{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 349px;
+        font-size: 21px;
+    }
+
+    #kcc>#result2{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 349px;
         font-size: 21px;
     }
 
@@ -607,9 +615,9 @@
     .rec{
         position: relative;
         top: -399px;
-        left: 50px;
+        left: -8px;
         background-color: #40A2D8;
-        width: 93vw;
+        width: 100vw;
         height: 52vh;
     }
 
@@ -618,7 +626,9 @@
         top: 57px;
         left: 50px;
         width: 174px;
-        height: 168px
+        height: 168px;
+        border-radius: 100%;
+
 
     }
 
@@ -638,7 +648,25 @@
         height: 168px;
     }
 
-    #kcc>p{
+    #kcc>#aboutKcc{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 535px;
+        font-size: 21px;
+    }
+
+
+    #kcc>#result1{
+        color: white;
+        position: relative;
+        top: -496px;
+        left: 535px;
+        font-size: 21px;
+    }
+
+
+    #kcc>#result2{
         color: white;
         position: relative;
         top: -496px;

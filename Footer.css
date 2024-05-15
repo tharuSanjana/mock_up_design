@@ -113,7 +113,7 @@ p{
     position: absolute;
     top: 134px;
     left: 280px;
-    font-family:Monospace;
+/*    font-family:Monospace;*/
 }
 
 
@@ -189,7 +189,7 @@ p{
         position: absolute;
         top: 268px;
         left: 25px;
-        font-family:Monospace;
+       /* font-family:Monospace;*/
     }
 }
 @media all and (min-width: 321px ) and (max-width: 376px){
@@ -274,7 +274,7 @@ p{
         position: absolute;
         top: 268px;
         left: 25px;
-        font-family:Monospace;
+       /* font-family:Monospace;*/
     }
 }
 @media all and (min-width: 377px ) and (max-width: 425px){
@@ -361,7 +361,7 @@ p{
         position: absolute;
         top: 265px;
         left: 55px;
-        font-family:Monospace;
+    /*    font-family:Monospace;*/
     }
 
 
@@ -430,7 +430,7 @@ p{
         position: absolute;
         top: 80px;
         left: 101px;
-        font-family:Monospace;
+     /*   font-family:Monospace;*/
     }
 
 
@@ -490,7 +490,7 @@ p{
         position: absolute;
         top: 80px;
         left: 132px;
-        font-family:Monospace;
+      /*  font-family:Monospace;*/
     }
 
 }
@@ -558,7 +558,7 @@ p{
         position: absolute;
         top: 80px;
         left: 132px;
-        font-family:Monospace;
+       /* font-family:Monospace;*/
     }
 
 }
@@ -627,7 +627,7 @@ p{
         position: absolute;
         top: 134px;
         left: 280px;
-        font-family:Monospace;
+       /* font-family:Monospace;*/
     }
 
 }
