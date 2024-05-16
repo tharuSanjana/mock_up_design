@@ -225,6 +225,17 @@ header > nav a {
     }
 
 }*/
+
+@keyframes shine {
+    from {
+        background-color: dodgerblue;
+        box-shadow: 0 0 10px 5px dodgerblue;
+    }
+    to {
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
 @media all and (max-width: 320px ){
     .aboutMe>div>h3{
         color: #0B60B0;
@@ -732,6 +743,7 @@ header > nav a {
         border: 5px solid dodgerblue;
         left: 814px;
         top: -789px;
+        animation: shine 2s infinite alternate;
     }
 
     #whoAmI > h4 {
