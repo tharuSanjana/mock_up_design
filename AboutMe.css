@@ -33,6 +33,7 @@ header > nav a {
     border: 5px solid dodgerblue;
     left: 814px;
     top: -789px;
+    animation: shine 2s infinite alternate;
 }
 
 #whoAmI>h4{
@@ -274,6 +275,7 @@ header > nav a {
         border: 5px solid dodgerblue;
         left: 86px;
         top: 8px;
+        animation: shine 2s infinite alternate;
     }
 
     #whoAmI>h4{
@@ -347,6 +349,7 @@ header > nav a {
         border: 5px solid dodgerblue;
         left: 112px;
         top: 8px;
+        animation: shine 2s infinite alternate;
     }
 
     #whoAmI>h4{
@@ -422,6 +425,7 @@ header > nav a {
         border: 5px solid dodgerblue;
         left: 124px;
         top: 26px;
+        animation: shine 2s infinite alternate;
     }
 
     #whoAmI>h4{
@@ -466,6 +470,7 @@ header > nav a {
         border: 5px solid dodgerblue;
         left: 452px;
         top: -716px;
+        animation: shine 2s infinite alternate;
     }
 
     #whoAmI>h4{
@@ -578,6 +583,7 @@ header > nav a {
         border: 5px solid dodgerblue;
         left: 576px;
         top: -757px;
+        animation: shine 2s infinite alternate;
     }
 
     #whoAmI>h4{
@@ -655,6 +661,7 @@ header > nav a {
         border: 5px solid dodgerblue;
         left: 576px;
         top: -757px;
+        animation: shine 2s infinite alternate;
     }
 
     #whoAmI > h4 {
