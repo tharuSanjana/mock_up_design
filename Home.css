@@ -1,6 +1,6 @@
 body{
     background-color: black;
-
+overflow-x: hidden;
 }
 
 /*body, h1, ul, header, main, section, footer {
@@ -144,6 +144,10 @@ section>div>h5{
 
 
 @media all and (max-width: 320px ){
+
+    body{
+        overflow-x: hidden;
+    }
     header > #menu {
 
         position: absolute;
@@ -636,6 +640,7 @@ section>div>h5{
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     body{
         background-color: black;
+        overflow-x: hidden;
     }
     header{
         top: 0;

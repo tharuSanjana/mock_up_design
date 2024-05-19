@@ -12,6 +12,7 @@
     height: 279px;
     left: 417px;
     top: 423px;
+    animation: fadeIn 1s ease-in, float 4s ease-in-out infinite;
 }
 
 #p2>img{
@@ -20,7 +21,7 @@
     height: 279px;
     left: 623px;
     top: 141px;
-
+    animation: fadeIn 1.5s ease-in, float 4s ease-in-out infinite;
 }
 
 #p3>img{
@@ -29,7 +30,7 @@
     height: 279px;
     left: 804px;
     top: -142px;
-
+    animation: fadeIn 2s ease-in, float 4s ease-in-out infinite;
 }
 
 #p4>img{
@@ -38,7 +39,7 @@
     height: 278px;
     left: 1011px;
     top: -424px;
-
+    animation: fadeIn 2.5s ease-in, float 4s ease-in-out infinite;
 }
 
 #p5>img{
@@ -47,12 +48,22 @@
     height: 279px;
     left: 233px;
     top: -707px;
-
+    animation: fadeIn 3s ease-in, float 4s ease-in-out infinite;
 }
 #images{
     position: relative;
     top: -231px;
     left: -53px;
+}
+
+#p1>img, #p2>img, #p3>img, #p4>img, #p5>img {
+    position: relative;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+#p1>img:hover, #p2>img:hover, #p3>img:hover, #p4>img:hover, #p5>img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.8;
 }
 
 @media all and (max-width: 320px ){
@@ -70,6 +81,7 @@
         height: 146px;
         left: 297px;
         top: 405px;
+        animation: fadeIn 1s ease-in, float 4s ease-in-out infinite;
     }
 
     #p2>img{
@@ -78,7 +90,7 @@
         height: 148px;
         left: 405px;
         top: 255px;
-
+        animation: fadeIn 1.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p3>img{
@@ -87,7 +99,7 @@
         height: 143px;
         left: 204px;
         top: 249px;
-
+        animation: fadeIn 2s ease-in, float 4s ease-in-out infinite;
     }
 
     #p4>img{
@@ -96,7 +108,7 @@
         height: 144px;
         left: 313px;
         top: 101px;
-
+        animation: fadeIn 2.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p5>img{
@@ -105,13 +117,23 @@
         height: 145px;
         left: 204px;
         top: -190px;
-
+        animation: fadeIn 3s ease-in, float 4s ease-in-out infinite;
     }
     #images{
         position: relative;
         top: -127px;
         left: -193px;
 
+    }
+
+    #p1>img, #p2>img, #p3>img, #p4>img, #p5>img {
+        position: relative;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    #p1>img:hover, #p2>img:hover, #p3>img:hover, #p4>img:hover, #p5>img:hover {
+        transform: scale(1.1) rotate(5deg);
+        opacity: 0.8;
     }
 
 }
@@ -130,6 +152,7 @@
         height: 159px;
         left: 306px;
         top: 417px;
+        animation: fadeIn 1s ease-in, float 4s ease-in-out infinite;
     }
 
     #p2>img{
@@ -138,7 +161,7 @@
         height: 159px;
         left: 426px;
         top: 254px;
-
+        animation: fadeIn 1.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p3>img{
@@ -147,7 +170,7 @@
         height: 159px;
         left: 204px;
         top: 249px;
-
+        animation: fadeIn 2s ease-in, float 4s ease-in-out infinite;
     }
 
     #p4>img{
@@ -156,7 +179,7 @@
         height: 159px;
         left: 322px;
         top: 87px;
-
+        animation: fadeIn 2.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p5>img{
@@ -165,7 +188,7 @@
         height: 159px;
         left: 204px;
         top: -234px;
-
+        animation: fadeIn 3s ease-in, float 4s ease-in-out infinite;
     }
     #images{
         position: relative;
@@ -173,6 +196,16 @@
         left: -181px;
 
     }
+    #p1>img, #p2>img, #p3>img, #p4>img, #p5>img {
+        position: relative;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    #p1>img:hover, #p2>img:hover, #p3>img:hover, #p4>img:hover, #p5>img:hover {
+        transform: scale(1.1) rotate(5deg);
+        opacity: 0.8;
+    }
+
 
 }
 @media all and (min-width: 377px ) and (max-width: 425px){
@@ -190,6 +223,7 @@
         height: 159px;
         left: 306px;
         top: 417px;
+        animation: fadeIn 1s ease-in, float 4s ease-in-out infinite;
     }
 
     #p2>img{
@@ -198,7 +232,7 @@
         height: 159px;
         left: 426px;
         top: 254px;
-
+        animation: fadeIn 1.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p3>img{
@@ -207,7 +241,7 @@
         height: 159px;
         left: 204px;
         top: 250px;
-
+        animation: fadeIn 2s ease-in, float 4s ease-in-out infinite;
     }
 
     #p4>img{
@@ -216,7 +250,7 @@
         height: 159px;
         left: 322px;
         top: 88px;
-
+        animation: fadeIn 2.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p5>img{
@@ -225,13 +259,23 @@
         height: 159px;
         left: 204px;
         top: -234px;
-
+        animation: fadeIn 3s ease-in, float 4s ease-in-out infinite;
     }
     #images{
         position: relative;
         top: -154px;
         left: -151px;
 
+    }
+
+    #p1>img, #p2>img, #p3>img, #p4>img, #p5>img {
+        position: relative;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    #p1>img:hover, #p2>img:hover, #p3>img:hover, #p4>img:hover, #p5>img:hover {
+        transform: scale(1.1) rotate(5deg);
+        opacity: 0.8;
     }
 }
 
@@ -251,6 +295,7 @@
         height: 159px;
         left: 306px;
         top: 417px;
+        animation: fadeIn 1s ease-in, float 4s ease-in-out infinite;
     }
 
     #p2>img{
@@ -259,7 +304,7 @@
         height: 159px;
         left: 426px;
         top: 254px;
-
+        animation: fadeIn 1.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p3>img{
@@ -268,7 +313,7 @@
         height: 159px;
         left: 529px;
         top: 92px;
-
+        animation: fadeIn 2s ease-in, float 4s ease-in-out infinite;
     }
 
     #p4>img{
@@ -277,7 +322,7 @@
         height: 159px;
         left: 647px;
         top: -71px;
-
+        animation: fadeIn 2.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p5>img{
@@ -286,13 +331,23 @@
         height: 159px;
         left: 204px;
         top: -234px;
-
+        animation: fadeIn 3s ease-in, float 4s ease-in-out infinite;
     }
     #images{
         position: relative;
         top: -379px;
         left: -152px;
 
+    }
+
+    #p1>img, #p2>img, #p3>img, #p4>img, #p5>img {
+        position: relative;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    #p1>img:hover, #p2>img:hover, #p3>img:hover, #p4>img:hover, #p5>img:hover {
+        transform: scale(1.1) rotate(5deg);
+        opacity: 0.8;
     }
 }
 @media all and (min-width: 835px ) and (max-width: 1024px){
@@ -310,6 +365,7 @@
         height: 194px;
         left: 368px;
         top: 445px;
+        animation: fadeIn 1s ease-in, float 4s ease-in-out infinite;
     }
 
     #p2>img{
@@ -318,7 +374,7 @@
         height: 196px;
         left: 500px;
         top: 248px;
-
+        animation: fadeIn 1.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p3>img{
@@ -327,7 +383,7 @@
         height: 196px;
         left: 621px;
         top: 49px;
-
+        animation: fadeIn 2s ease-in, float 4s ease-in-out infinite;
     }
 
     #p4>img{
@@ -336,7 +392,7 @@
         height: 197px;
         left: 755px;
         top: -151px;
-
+        animation: fadeIn 2.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p5>img{
@@ -345,13 +401,23 @@
         height: 193px;
         left: 253px;
         top: -353px;
-
+        animation: fadeIn 3s ease-in, float 4s ease-in-out infinite;
     }
     #images{
         position: relative;
         top: -278px;
         left: -128px;
 
+    }
+
+    #p1>img, #p2>img, #p3>img, #p4>img, #p5>img {
+        position: relative;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    #p1>img:hover, #p2>img:hover, #p3>img:hover, #p4>img:hover, #p5>img:hover {
+        transform: scale(1.1) rotate(5deg);
+        opacity: 0.8;
     }
 }
 @media all and (min-width: 1025px ) and (max-width: 1440px){
@@ -369,6 +435,7 @@
         height: 194px;
         left: 368px;
         top: 445px;
+        animation: fadeIn 1s ease-in, float 4s ease-in-out infinite;
     }
 
     #p2>img{
@@ -377,7 +444,7 @@
         height: 196px;
         left: 500px;
         top: 248px;
-
+        animation: fadeIn 1.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p3>img{
@@ -386,7 +453,7 @@
         height: 196px;
         left: 621px;
         top: 49px;
-
+        animation: fadeIn 2s ease-in, float 4s ease-in-out infinite;
     }
 
     #p4>img{
@@ -395,7 +462,7 @@
         height: 197px;
         left: 755px;
         top: -151px;
-
+        animation: fadeIn 2.5s ease-in, float 4s ease-in-out infinite;
     }
 
     #p5>img{
@@ -404,13 +471,23 @@
         height: 193px;
         left: 253px;
         top: -353px;
-
+        animation: fadeIn 3s ease-in, float 4s ease-in-out infinite;
     }
     #images{
         position: relative;
         top: -278px;
         left: -128px;
 
+    }
+
+    #p1>img, #p2>img, #p3>img, #p4>img, #p5>img {
+        position: relative;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    #p1>img:hover, #p2>img:hover, #p3>img:hover, #p4>img:hover, #p5>img:hover {
+        transform: scale(1.1) rotate(5deg);
+        opacity: 0.8;
     }
 }
 @media all and  (min-width:1440px){
@@ -503,151 +580,3 @@
         transform: translateY(0);
     }
 }
-/*
-@media all and (max-width: 768px) {
-    #p1>img{
-
-        position: relative;
-        width: 206px;
-        height: 279px;
-        transform: translateX(-43%);
-        top: 423px;
-    }
-
-    #p2>img{
-        position: relative;
-        width: 181px;
-        height: 279px;
-        transform: translateX(-49%);
-        top: 141px;
-
-    }
-
-    #p3>img{
-        position: relative;
-        width: 207px;
-        height: 279px;
-        transform: translateX(-52%);
-        top: -142px;
-
-    }
-
-    #p4>img{
-        position: relative;
-        width: 355px;
-        height: 244px;
-        transform: translateX(-25%);
-        top: -146px;
-
-    }
-
-    #p5>img{
-        position: relative;
-        width: 239px;
-        height: 244px;
-        transform: translateX(-45%);
-        top: -394px;
-
-    }
-}
-@media all and (max-width: 1024px) {
-    #p1>img{
-        position: relative;
-        width: 206px;
-        height: 279px;
-        left: 203px !important;
-        top: 423px;
-    }
-
-    #p2>img{
-        position: relative;
-        width: 181px;
-        height: 279px;
-        left: 409px !important;
-        top: 141px;
-
-    }
-
-    #p3>img{
-        position: relative;
-        width: 207px;
-        height: 279px;
-        left: 590px !important;
-        top: -142px;
-
-    }
-
-    #p4>img{
-        position: relative;
-        width: 355px;
-        height: 244px;
-        left: 204px !important;
-        top: -146px;
-
-    }
-
-    #p5>img{
-        position: relative;
-        width: 239px;
-        height: 244px;
-        left: 558px !important;
-        top: -394px;
-
-    }
-}
-
-
-@media all and (max-width: 1440px) {
-
-    .gallery>div>h3{
-        color: #0B60B0;
-        text-align: center;
-        font-size: 40px;
-        position: relative;
-        top: 350px;
-    }
-
-    #p1>img{
-        position: relative;
-        width: 206px;
-        height: 279px;
-        left: 417px;
-        top: 423px;
-    }
-
-    #p2>img{
-        position: relative;
-        width: 181px;
-        height: 279px;
-        left: 623px;
-        top: 141px;
-
-    }
-
-    #p3>img{
-        position: relative;
-        width: 207px;
-        height: 279px;
-        left: 804px;
-        top: -142px;
-
-    }
-
-    #p4>img{
-        position: relative;
-        width: 355px;
-        height: 244px;
-        left: 417px;
-        top: -146px;
-
-    }
-
-    #p5>img{
-        position: relative;
-        width: 239px;
-        height: 244px;
-        left: 772px;
-        top: -394px;
-
-    }
-}*/
