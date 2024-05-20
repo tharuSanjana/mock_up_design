@@ -132,7 +132,7 @@ section>div>h5{
     border: 5px solid white;
 }
 
-#socialImages>img{
+#socialImages>a>img{
     position: relative;
     border-radius: 100%;
     width: 36px;
@@ -193,7 +193,7 @@ section>div>h5{
         height: 313px;
     }
 
-    #socialImages>img{
+    #socialImages>a>img{
         position: relative;
         border-radius: 100%;
         width: 25px;
@@ -296,7 +296,7 @@ section>div>h5{
         height: 313px;
     }
 
-    #socialImages>img{
+    #socialImages>a>img{
         position: relative;
         border-radius: 100%;
         width: 25px;
@@ -400,7 +400,7 @@ section>div>h5{
         font-size: 19px;
     }
 
-    #socialImages>img{
+    #socialImages>a>img{
         position: relative;
         border-radius: 100%;
         width: 25px;
@@ -540,7 +540,7 @@ section>div>h5{
         border: 5px solid white;
     }
 
-    #socialImages>img{
+    #socialImages>a>img{
         position: relative;
         border-radius: 100%;
         width: 36px;
@@ -713,7 +713,7 @@ section>div>h5{
     }
 
 
-    #socialImages>img{
+    #socialImages>a>img{
         position: relative;
         border-radius: 100%;
         width: 36px;

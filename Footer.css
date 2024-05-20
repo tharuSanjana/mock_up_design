@@ -85,7 +85,7 @@ footer>div>label{
     font-size: 20px;
 }
 
-#socialImg>img{
+#socialImg>a>img{
     position: relative;
     border-radius: 100%;
     width: 36px;
@@ -161,7 +161,7 @@ p{
         font-size: 16px;
     }
 
-    #socialImg>img{
+    #socialImg>a>img{
         position: relative;
         border-radius: 100%;
         width: 25px;
@@ -237,7 +237,7 @@ p{
 
     }
 
-    #socialImg>img{
+    #socialImg>a>img{
         position: relative;
         border-radius: 100%;
         width: 25px;
@@ -324,7 +324,7 @@ p{
         left: 64px;
 
     }
-    #socialImg>img{
+    #socialImg>a>img{
         position: relative;
         border-radius: 100%;
         width: 25px;
@@ -410,7 +410,7 @@ p{
 
     }
 
-    #socialImg>img{
+    #socialImg>a>img{
         position: relative;
         border-radius: 100%;
         width: 33px;
@@ -470,7 +470,7 @@ p{
 
     }
 
-    #socialImg>img{
+    #socialImg>a>img{
         position: relative;
         border-radius: 100%;
         width: 36px;
@@ -529,7 +529,7 @@ p{
 
     }
 
-    #socialImg>img{
+    #socialImg>a>img{
         position: relative;
         border-radius: 100%;
         width: 36px;
