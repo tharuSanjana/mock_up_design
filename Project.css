@@ -2388,15 +2388,16 @@ img.assGit {
 
 
 
-    .assignmentNumber>img  {
+    .assignmentNumber>a>img  {
         width: 50px;
         height: auto;
         display: block;
         margin: 10px auto;
         animation: jump 0.3s infinite alternate;
+        color: black;
     }
 
-    .assignmentNumber>i {
+    .assignmentNumber>a>i {
       font-size: 30px;
       position: absolute;
         top: 168px;

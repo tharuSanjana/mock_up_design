@@ -599,7 +599,7 @@ p{
         font-size: 20px;
     }
 
-    #socialImg>img{
+    #socialImg>a>img{
         position: relative;
         border-radius: 100%;
         width: 36px;
