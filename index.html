@@ -33,7 +33,7 @@
 
 
 <header>
-    <nav>
+    <nav >
         <a href="#about me"><b>About</b></a>
         <a href="#project"><b>Project</b></a>
         <a href="#skills"><b>Skills</b></a>
@@ -42,13 +42,42 @@
         <a href="#contact me"><b>Contact</b></a>
     </nav>
 
+   <!-- <nav id="menu">
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>-->
+
     <nav id="menu">
         <div class="menu-btn">
             <span></span>
             <span></span>
             <span></span>
         </div>
+        <div class="menu-items" id="menu-items">
+            <a href="#about me"><b>About</b></a>
+            <a href="#project"><b>Project</b></a>
+            <a href="#skills"><b>Skills</b></a>
+            <a href="#gallery"><b>Gallery</b></a>
+            <a href="#education"><b>Education</b></a>
+            <a href="#contact me"><b>Contact</b></a>
+        </div>
     </nav>
+
+
+<!--    <div class="menu-button" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div id="dropdown-menu" class="dropdown-menu">
+        <span onclick="navigateTo('education')">Education</span>
+        <span onclick="navigateTo('about')">About</span>
+        <span onclick="navigateTo('contact')">Contact</span>
+        <span onclick="navigateTo('project')">Project</span>
+    </div>-->
 
 
     <br><br>
@@ -562,19 +591,47 @@
         </div>
     </div>
 
-   <!-- <div>
-        <label ><i>tHaRu</i></label>
-    </div>-->
+
 
 
 
 
     <p><b>Embark on a journey of creativity and innovation, <br>where every step is guided by passion and fueled by dedication.</b></p>
 </footer>
-
+<script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <script>
     AOS.init();
+
+
+
+  /*  function toggleMenu() {
+        var menu = document.getElementById('dropdown-menu');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+
+    function navigateTo(section) {
+        alert('Navigating to ' + section);
+        // Here you can implement the actual navigation logic, like setting window.location.href
+    }*/
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuBtn = document.querySelector('.menu-btn');
+        const menuItems = document.getElementById('menu-items');
+
+        menuBtn.addEventListener('click', function() {
+            if (menuItems.style.display === 'block') {
+                menuItems.style.display = 'none';
+            } else {
+                menuItems.style.display = 'block';
+            }
+        });
+    });
 </script>
 
 
