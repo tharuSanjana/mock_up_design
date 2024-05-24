@@ -160,7 +160,7 @@
         <br>
         <div id="downloadImage">
             <img src="assets/images/download.png" title="download" alt="download" data-aos="fade-up" >
-            <button data-aos="fade-up"><b>Download</b></button>
+            <button data-aos="fade-up" id="downloadCV"><b>Download</b></button>
         </div>
 
     </section>
@@ -502,42 +502,29 @@
             <br>
 
 
-              <!--  <br>
-                <dd style="display: inline;" class="details">Name</dd>
-              &lt;!&ndash;  <input type="text" style="display: inline;">&ndash;&gt;
-                <br><br>
-                <dd style="display: inline;" class="details">Email</dd>
-               &lt;!&ndash; <input type="text" style="display: inline;">&ndash;&gt;
-                <br><br>
-                <dd style="display: inline;" class="details">Contact No</dd>
-               &lt;!&ndash; <input type="text" style="display: inline;">&ndash;&gt;
-                <br><br>
-                <dd style="display: inline;" class="details">Message</dd>
-                <input type="text" style="display: inline;">-->
-
             <div class="details">
                 <label>Name</label>
-                <input type="text">
+                <input type="text"  id="contactName">
             </div>
 
             <div class="details">
-                <label>Email</label>
-                <input type="text">
+                <label >Email</label>
+                <input type="text" id="contactEmail">
             </div>
 
             <div class="details">
-                <label>Contact No</label>
-                <input type="text">
+                <label >Contact No</label>
+                <input type="text" id="contactNum">
             </div>
 
             <div class="details">
-                <label>Message</label>
-                <input type="text">
+                <label >Message</label>
+                <input type="text" id="contactMsg">
             </div>
 
             <div id="button">
-                <button><b>Cancel</b></button>
-                <button><b>Send</b></button>
+                <button id="cancelBtn"><b>Cancel</b></button>
+                <button id="sendBtn"><b>Send</b></button>
             </div>
 
         </div>
@@ -604,22 +591,7 @@
 <script>
     AOS.init();
 
-
-
-  /*  function toggleMenu() {
-        var menu = document.getElementById('dropdown-menu');
-        if (menu.style.display === 'block') {
-            menu.style.display = 'none';
-        } else {
-            menu.style.display = 'block';
-        }
-    }
-
-    function navigateTo(section) {
-        alert('Navigating to ' + section);
-        // Here you can implement the actual navigation logic, like setting window.location.href
-    }*/
-
+ /*   menu button*/
     document.addEventListener('DOMContentLoaded', function() {
         const menuBtn = document.querySelector('.menu-btn');
         const menuItems = document.getElementById('menu-items');
@@ -633,7 +605,139 @@
         });
     });
 
+/*    downloadCV*/
+    document.getElementById('downloadCV').addEventListener('click', function() {
+        const url = 'assets/cv.pdf';
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'CV.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
 
+   /* contact*/
+    let array=[];
+    function cancelForm() {
+        $('#contactName').val('');
+        $('#contactEmail').val('');
+        $('#contactNum').val('');
+        $('#contactMsg').val('');
+    }
+
+   /* function sendForm() {
+
+
+        let name = $('#contactName').val();
+        let email = $('#contactEmail').val();
+        let contactNo = $('#contactNum').val();
+        let message = $('#contactMsg').val();
+
+
+        const data = {
+            name: name,
+            email: email,
+            contactNo: contactNo,
+            message: message
+        };
+
+        console.log('Sending data:', data);
+        array.push(data);
+        console.log('Array now contains:', array);
+
+        $('#contactName').val('');
+        $('#contactEmail').val('');
+        $('#contactNum').val('');
+        $('#contactMsg').val('');
+    }
+
+    $('#sendBtn').on('click', () => {
+        sendForm();
+    });
+
+    $('#cancelBtn').on('click', () => {
+       cancelForm();
+    });
+*/
+    function sendForm() {
+        let name = $('#contactName').val();
+        let email = $('#contactEmail').val();
+        let contactNo = $('#contactNum').val();
+        let message = $('#contactMsg').val();
+
+        if (!name || !email || !contactNo || !message) {
+            alert('Please fill in all fields.');
+            return;
+        }
+
+        const data = {
+            name: name,
+            email: email,
+            contactNo: contactNo,
+            message: message
+        };
+
+        console.log('Sending data:', data);
+        array.push(data);
+        console.log('Array now contains:', array);
+        $('#contactName').val('');
+        $('#contactEmail').val('');
+        $('#contactNum').val('');
+        $('#contactMsg').val('');
+
+       /* $.ajax({
+            url: 'http://localhost:3000/contact',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(data),
+            success: function(response) {
+                alert(response.message);
+                displayData();
+                cancelForm();
+            },
+            error: function(error) {
+                console.error('Error:', error);
+                alert('An error occurred while sending the message.');
+            }
+        });*/
+    }
+
+   /* function displayData() {
+        const dataList = $('#dataList');
+        dataList.empty(); // Clear the list before appending new data
+        array.forEach((item, index) => {
+            dataList.append(`<li><b>Entry ${index + 1}:</b> Name: ${item.name}, Email: ${item.email}, Contact No: ${item.contactNo}, Message: ${item.message}</li>`);
+        });
+    }*/
+
+    $('#sendBtn').on('click', () => {
+        sendForm();
+    });
+
+    $('#cancelBtn').on('click', () => {
+        cancelForm();
+    });
+
+   /* const express = require('express');
+    const bodyParser = require('body-parser');
+    const cors = require('cors');
+
+    const app = express();
+    const port = 3000;
+
+    app.use(bodyParser.json());
+    app.use(cors());
+
+    app.post('/contact', (req, res) => {
+        const { name, email, contactNo, message } = req.body;
+        console.log('Received contact form data:', req.body);
+        // Here you can handle the data, e.g., save it to a database or send an email
+        res.send({ status: 'success', message: 'Message received successfully!' });
+    });
+
+    app.listen(port, () => {
+        console.log(`Server running at http://localhost:${port}`);
+    });*/
 </script>
 
 
