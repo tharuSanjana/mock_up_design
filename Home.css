@@ -169,13 +169,13 @@ nav#main-nav {
     cursor: pointer;
 }
 
-.menu-btn span {
+/*.menu-btn span {
     display: block;
     width: 25px;
     height: 3px;
     background-color: white;
     margin-bottom: 6px;
-}
+}*/
 
 .menu-items {
     display: none;
@@ -302,6 +302,14 @@ nav#main-nav {
         background-color: black;
         border: 5px solid white;
     }*/
+
+    .menu-btn span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 6px;
+    }
 
     header > #menu {
         position: absolute;
