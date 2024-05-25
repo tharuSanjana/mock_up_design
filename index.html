@@ -116,7 +116,9 @@
         </div>
 
         <div id="contactButton">
-            <button data-aos="fade-up">CONTACT ME!</button>
+
+            <button data-aos="fade-up" id="contactBtn">CONTACT ME!
+            </button>
         </div>
         <br><br>
         <div id="socialImages">
@@ -738,6 +740,17 @@
     app.listen(port, () => {
         console.log(`Server running at http://localhost:${port}`);
     });*/
+
+
+    document.getElementById('contactBtn').addEventListener('click', function() {
+        var contactForm = document.getElementById('contactRec');
+        if (contactForm.style.display === 'none' || contactForm.style.display === '') {
+            contactForm.style.display = 'block';
+            contactForm.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            contactForm.style.display = 'none';
+        }
+    });
 </script>
 
 
