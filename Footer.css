@@ -367,7 +367,96 @@ p{
 
 
 }
-@media all and (min-width: 461px ) and (max-width: 768px){
+
+@media all and (min-width: 426px ) and (max-width: 526px){
+
+
+    body{
+        overflow-x: hidden;
+    }
+    #f {
+        width: 100vw;
+        height: 260px;
+        position: relative;
+        top: -21px;
+        background-color: #007bff;
+    }
+
+    footer>#footer{
+        width: 100vw;
+        height: 388px;
+        position: relative;
+        top: 97px;
+        background-color: #007bff;
+
+    }
+
+    #le{
+        position: absolute;
+        top:44px;
+        left: 64px;
+        font-size: 55px;
+        font-family: Cursive;
+    }
+
+    #thank{
+        color: white;
+        font-size: 31px;
+        position: absolute;
+        top: 210px;
+        left: 321px;
+    }
+
+
+    footer>div>label{
+        display: flex;
+        margin: 10px 10px;
+        position: relative;
+        top: 135px;
+        left: 64px;
+
+    }
+    #socialImg>a>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: 140px;
+        left: 115px;
+    }
+
+    #footer{
+
+        white-space: nowrap;
+
+    }
+
+    #bye{
+        position: relative;
+        top: -314px;
+        left: 114px;
+        border-radius: 100%;
+        width: 146px;
+        aspect-ratio: 1/1;
+    }
+
+    footer {
+        position: relative;
+        background-color: white;
+        top: 0;
+        width: 100vw;
+        height: 388px;
+    }
+
+    p{
+        font-size: 15px;
+        position: absolute;
+        top: 265px;
+        left: 55px;
+        /*    font-family:Monospace;*/
+    }
+}
+/*@media all and (min-width: 461px ) and (max-width: 768px){
     #f{
         width: 100vw;
         height: 388px;
@@ -430,11 +519,11 @@ p{
         position: absolute;
         top: 80px;
         left: 101px;
-     /*   font-family:Monospace;*/
+     !*   font-family:Monospace;*!
     }
 
 
-}
+}*/
 @media all and (min-width: 835px ) and (max-width: 1024px){
     footer>#footer{
         width: 100vw;

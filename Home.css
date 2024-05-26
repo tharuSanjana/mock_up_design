@@ -642,7 +642,245 @@ nav#main-nav {
         border: 5px solid white;
     }
 }
-@media all and (min-width: 461px ) and (max-width: 768px){
+
+@media all and (min-width: 426px ) and (max-width: 526px){
+    header{
+        top: 0;
+        position: fixed;
+        width: 99vw;
+        height: 7vh;
+        background-color: #0B60B0;
+        border-radius: 20px;
+        left: 0;
+        z-index: 1000;
+
+    }
+
+    header > #menu {
+
+        position: absolute;
+        top: 34px;
+        left: 76%;
+        transform: translateX(-50%);
+    }
+
+    .menu-btn {
+        display: block;
+        width: 40px;
+        height: 33px;
+        position: absolute;
+        top: 50%;
+        left: 36px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .menu-btn span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 6px;
+    }
+    main>section>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 57px;
+        left: 114px;
+        border-radius: 30px;
+        width:184px ;
+        height: 313px;
+    }
+
+
+
+    main>div{
+        top: 30px;
+        left: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 19px;
+    }
+
+    #socialImages>a>img{
+        position: relative;
+        border-radius: 100%;
+        width: 25px;
+        aspect-ratio: 1/1;
+        top: -423px;
+        left: 144px;
+    }
+
+    main>section>div>h1{
+        color: #40A2D8;
+        position: relative;
+        top: 133px;
+        bottom: 0;
+        left: 124px;
+        font-size: 66px;
+        margin: auto;
+    }
+
+    #im{
+        color: white;
+        position: relative;
+        top: 80px;
+        bottom: 0;
+        left: 160px;
+        font-size: 51px;
+    }
+
+    #name{
+        color: white;
+        position: relative;
+        top: 24px;
+        bottom: 0;
+        left: 71px;
+        font-size: 35px;
+    }
+
+    section>div>h5{
+        color: cornflowerblue;
+        position: relative;
+        top: -29px;
+        bottom: 0;
+        left: 75px;
+        font-size: 33px;
+    }
+
+    #contactButton>button{
+        position: relative;
+        left: 142px;
+        top: -58px;
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        border: 5px solid white;
+    }
+
+}
+
+@media all and (min-width: 527px ) and (max-width: 627px){
+
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        top: 0;
+        position: fixed;
+        width: 99vw;
+        height: 7vh;
+        background-color: #0B60B0;
+        border-radius: 20px;
+        left: 0;
+        z-index: 1000;
+
+    }
+
+    header > #menu {
+
+        position: absolute;
+        top: 34px;
+        left: 76%;
+        transform: translateX(-50%);
+    }
+
+    .menu-btn {
+        display: block;
+        width: 40px;
+        height: 33px;
+        position: absolute;
+        top: 50%;
+        left: 36px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .menu-btn span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 6px;
+    }
+    main>section>img{
+        filter: brightness(51%);
+        position: relative;
+        top: 57px;
+        left: 165px;
+        border-radius: 30px;
+        width:201px ;
+        height: 341px;
+    }
+
+
+
+    main>div{
+        top: 30px;
+        left: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 19px;
+    }
+
+    #socialImages>a>img{
+        position: relative;
+        border-radius: 100%;
+        width: 30px;
+        aspect-ratio: 1/1;
+        top: -423px;
+        left: 195px;
+    }
+
+    main>section>div>h1{
+        color: #40A2D8;
+        position: relative;
+        top: 155px;
+        bottom: 0;
+        left: 166px;
+        font-size: 77px;
+        margin: auto;
+    }
+
+    #im{
+        color: white;
+        position: relative;
+        top: 102px;
+        bottom: 0;
+        left: 206px;
+        font-size: 51px;
+    }
+
+    #name{
+        color: white;
+        position: relative;
+        top: 54px;
+        bottom: 0;
+        left: 122px;
+        font-size: 35px;
+    }
+
+    section>div>h5{
+        color: cornflowerblue;
+        position: relative;
+        top: 15px;
+        bottom: 0;
+        left: 115px;
+        font-size: 33px;
+    }
+
+    #contactButton>button{
+        position: relative;
+        left: 201px;
+        top: -12px;
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        border: 5px solid white;
+    }
+}
+@media all and (min-width: 590px ) and (max-width: 768px){}
+/*@media all and (min-width: 461px ) and (max-width: 768px){
 
     body{
         background-color: black;
@@ -737,7 +975,7 @@ nav#main-nav {
 
 
 
-}
+}*/
 @media all and (min-width: 835px ) and (max-width: 1024px){
     body{
         background-color: black;
