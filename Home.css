@@ -302,6 +302,17 @@ nav#main-nav {
         background-color: black;
         border: 5px solid white;
     }*/
+    header{
+        top: 0;
+        position: fixed;
+        width: 100vw;
+        height: 7vh;
+        background-color: #0B60B0;
+        border-radius: 20px;
+        left: 0;
+        z-index: 1000;
+
+    }
 
     .menu-btn span {
         display: block;
@@ -413,6 +424,18 @@ nav#main-nav {
 
 }
 @media all and (min-width: 321px ) and (max-width: 376px){
+
+    header{
+        top: 0;
+        position: fixed;
+        width: 100vw;
+        height: 7vh;
+        background-color: #0B60B0;
+        border-radius: 20px;
+        left: 0;
+        z-index: 1000;
+
+    }
 
     header > #menu {
 
