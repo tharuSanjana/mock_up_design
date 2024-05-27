@@ -912,7 +912,7 @@ nav#main-nav {
         font-size: 20px;
         position: absolute;
         top: 13px;
-        left: 0;
+        left: -65px;
         transform: translateX(56%);
 
     }
@@ -953,7 +953,7 @@ nav#main-nav {
         top: -508px;
         bottom: 0;
         left: 382px;
-        font-size: 46px;
+        font-size: 37px;
     }
 
     section>div>h5{
@@ -961,14 +961,14 @@ nav#main-nav {
         position: relative;
         top: -553px;
         bottom: 0;
-        left: 410px;
-        font-size: 38px;
+        left: 385px;
+        font-size: 33px;
     }
 
     #contactButton>button{
         position: relative;
         left: 503px;
-        top: -568px;
+        top: -478px;
         font-size: 21px;
         color: white;
         background-color: black;
@@ -980,7 +980,7 @@ nav#main-nav {
         border-radius: 100%;
         width: 36px;
         aspect-ratio: 1/1;
-        top: -597px;
+        top: -567px;
         left: 108px;
     }
 

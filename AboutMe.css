@@ -616,7 +616,8 @@ header > nav a {
 }
 
 @media all and (min-width: 628px ) and (max-width: 768px){
-    #whoAmI{
+
+    /*#whoAmI{
         position: relative;
         width: 169px;
         height: 50px;
@@ -647,7 +648,7 @@ header > nav a {
         color: white;
         position: relative;
         top: -660px ;
-        left: 337px ;
+        left: 306px ;
         font-size: 15px;
         font-family: Papyrus,fantasy;
     }
@@ -686,6 +687,79 @@ header > nav a {
         position: relative;
         left: 437px;
         top: -585px;
+
+        width: 28px;
+        height: 27px;
+        margin-right: 10px;
+    }*/
+
+    .aboutMe>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        top: -43px;
+    }
+
+    #aboutPhoto > img {
+        position: relative;
+        width: 194px ;
+        height: 194px ;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 13px solid #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transform: rotate(-2deg) translateX(-108px);
+        top: 9px;
+        left: 209px;
+    }
+
+    .aboutMe>p{
+        color: white;
+        position: relative;
+        top: 47px;
+        left: 37px;
+        font-size: 14px;
+        font-family: Papyrus,fantasy;
+    }
+
+    #whoAmI{
+        position: relative;
+        width: 142px;
+        height: 43px;
+        border: 5px solid dodgerblue;
+        left: 124px;
+        top: 26px;
+        animation: shine 2s infinite alternate;
+    }
+
+    #whoAmI>h4{
+        position: absolute;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        top: -23px;
+        left: 14px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+    .aboutMe>div>button{
+        position: relative;
+        background-color: #40A2D8;
+        top: 69px;
+        left: 145px;
+        color: black;
+        font-size: 20px;
+        border: 2px solid black;
+
+        width: 145px;
+        height: 36px;
+    }
+
+    #downloadImage>img{
+        position: relative;
+        left: 141px;
+        top: 75px;
 
         width: 28px;
         height: 27px;
