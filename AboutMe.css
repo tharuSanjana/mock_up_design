@@ -614,6 +614,85 @@ header > nav a {
         margin-right: 10px;
     }
 }
+
+@media all and (min-width: 628px ) and (max-width: 768px){
+    #whoAmI{
+        position: relative;
+        width: 169px;
+        height: 50px;
+        border: 5px solid dodgerblue;
+        left: 452px;
+        top: -716px;
+        animation: shine 2s infinite alternate;
+    }
+
+    #whoAmI>h4{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        top: -30px;
+        left: 14px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    .aboutMe>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -537px;
+    }
+
+    .aboutMe>p{
+        color: white;
+        position: relative;
+        top: -660px ;
+        left: 337px ;
+        font-size: 15px;
+        font-family: Papyrus,fantasy;
+    }
+
+
+    #aboutPhoto > img {
+        position: relative;
+        width: 194px ;
+        height: 194px ;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 13px solid #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transform: rotate(-2deg) translateX(-108px);
+        top: -402px;
+        left: 190px;
+    }
+
+
+
+
+    .aboutMe>div>button{
+        position: relative;
+        background-color: #40A2D8;
+        top: -585px;
+        left: 435px ;
+        color: black;
+        font-size: 20px;
+        border: 2px solid black;
+
+        width: 164px;
+        height: 43px;
+    }
+
+    #downloadImage>img{
+        position: relative;
+        left: 437px;
+        top: -585px;
+
+        width: 28px;
+        height: 27px;
+        margin-right: 10px;
+    }
+
+}
 /*@media all and (min-width: 461px ) and (max-width: 768px){
     #whoAmI{
         position: relative;
