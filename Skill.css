@@ -567,19 +567,20 @@
 }
 
 @media all and (min-width: 628px ) and (max-width: 768px){
+
     .skill>div>h3{
         color: #0B60B0;
         text-align: center;
         font-size: 40px;
         position: relative;
-        top: -213px;
+        top: 157px;
     }
 
     #blueRec{
         position: relative;
-        width: 450px;
+        width: 341px;
         height: 315px;
-        top: -143px;
+        top: 193px;
         bottom: 0;
         left: 0;
         right: 0;
@@ -591,11 +592,12 @@
 
     .skillImages{
         display: flex;
-
         width: 2500px;
         height: 315px;
         animation: anim 10s linear infinite;
-
+        position: absolute;
+        top: 0;
+        left: -51px;
 
     }
 

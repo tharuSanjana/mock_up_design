@@ -711,15 +711,15 @@ header > nav a {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         transform: rotate(-2deg) translateX(-108px);
         top: 9px;
-        left: 209px;
+        left: 338px;
     }
 
     .aboutMe>p{
         color: white;
         position: relative;
         top: 47px;
-        left: 37px;
-        font-size: 14px;
+        left: 98px;
+        font-size: 20px;
         font-family: Papyrus,fantasy;
     }
 
@@ -728,7 +728,7 @@ header > nav a {
         width: 142px;
         height: 43px;
         border: 5px solid dodgerblue;
-        left: 124px;
+        left: 253px;
         top: 26px;
         animation: shine 2s infinite alternate;
     }
@@ -747,7 +747,7 @@ header > nav a {
         position: relative;
         background-color: #40A2D8;
         top: 69px;
-        left: 145px;
+        left: 214px;
         color: black;
         font-size: 20px;
         border: 2px solid black;
@@ -758,7 +758,7 @@ header > nav a {
 
     #downloadImage>img{
         position: relative;
-        left: 141px;
+        left: 214px;
         top: 75px;
 
         width: 28px;

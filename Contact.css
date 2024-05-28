@@ -430,7 +430,7 @@ body {
 }
 
 @media all and (min-width: 628px ) and (max-width: 768px){
-    .contact>div>h3{
+    /*.contact>div>h3{
         color: #0B60B0;
         text-align: center;
         font-size: 34px;
@@ -482,6 +482,72 @@ body {
         color: dodgerblue;
         padding: 8px 20px;
         margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    #button button:hover {
+        opacity: 0.8;
+    }*/
+
+    .contact>div>h3{
+        color: #0B60B0;
+        text-align: center;
+        font-size: 34px;
+        position: relative;
+        top: -155px;
+    }
+
+    #contactRec {
+        position: relative;
+        top: -101px;
+        left: 150px;
+        width: 325px;
+        height: 561px;
+
+        border: 13px solid white;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .details {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        margin-bottom: 22px;
+        top: 147px;
+        left: 56px;
+    }
+
+    .details input {
+        width: 63%;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    #contactRec>dt{
+        top: 41px;
+        color: dodgerblue;
+        font-size: 43px;
+        position: absolute;
+        left: 94px;
+
+    }
+
+    #button {
+        position: absolute;
+        top: 499px;
+        left: 151px;
+
+    }
+
+    #button button {
+        background-color: black;
+        color: dodgerblue;
+        padding: 8px 20px;
+        margin-right: -21px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
